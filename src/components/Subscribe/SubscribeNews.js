@@ -1,29 +1,72 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import { Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
+import "./Subscribe.css";
 
-const SubscribeNews = (props) => {
-    return(
-        <Container>
-            <h1>Subscriber to Our NewsLetter</h1>
-      <Row>
-        <Col sm>
-         <a href="+91 7506377907">+91 7506377907</a>
-        </Col>
-        <Col sm>
-          <input type="text" value="Enter your email!"></input>
-          <button value="Submit">Subscribe</button>
-        </Col>
-        <Col sm>
-        <img src="logo192.png" alt="" width="50" height="50"/>
-        <img src="logo192.png" alt="" width="50" height="50"/>
-        <img src="logo192.png" alt="" width="50" height="50"/>
-        <img src="logo192.png" alt="" width="50" height="50"/>
-        </Col>
-      </Row>
+const SubscribeNews = () => {
+  return (
+    <Container className="container-fluid Popsb">
+      <div className="row pops">
+        <div class="col-md-4 col-sm-4 col-lg-4">
+          <div className="sb">
+            <img
+              class="call"
+              src="https://cdn-icons-png.flaticon.com/512/455/455604.png"
+            />
+            <a className="number" href="#">
+              +91 7506377907
+            </a>
+          </div>
+        </div>
+        <div className="col-md-4 col-sm-4 col-lg-4">
+          <div>
+            <div>
+              <h5 className="subsh">Subscribe to Our Newsletter</h5>
+            </div>
+            <div className="input-group mb-3">
+              <input
+                type="email"
+                class="form-control inpt"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+                placeholder="Enter your email"
+              />
+              <button className="button" type="button">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 col-sm-4 col-lg-4">
+          <div class="socialt">
+            <a class="socialt" href="#">
+              <img
+                class="social"
+                src="fb.png"
+              />
+            </a>
+            <a class="socialt" href="#">
+              <img
+                class="social"
+                src="twitter.png"
+              />
+            </a>
+            <a class="socialt" href="#">
+              <img
+                class="social"
+                src="linkedin.png"
+              />
+            </a>
+            <a class="socialt" href="#">
+              <img
+                class="social"
+                src="mail.png"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
     </Container>
-    )
-}
+  );
+};
 
 export default SubscribeNews;

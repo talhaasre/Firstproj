@@ -1,42 +1,105 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import { Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
+import "./AtGlance.css";
 
 const AtGlance = () => {
   return (
-    <Container>
-      <Row>
-        <Col sm>
-          <h1>
-            <strong>Bakkah At Glance</strong>
-          </h1>
-        </Col>
-        <Col sm>
-          <Row>
-            <h3>17500+</h3>
-            <p></p>
-            <p>Capabilities Built</p>
-          </Row>
-          <Row>
-            <h3>450+</h3>
-            <p></p>
-            <p>Client Engagements</p>
-          </Row>
-        </Col>
-        <Col sm>
-          <Row>
-            <h3>800+</h3>
-            <p></p>
-            <p>Learning Seasions</p>
-          </Row>
-          <Row>
-            <h3>200+</h3>
-            <p></p>
-            <p>partners of success</p>
-          </Row>
-        </Col>
-      </Row>
+    <Container className="container-fluid popag">
+      <div class="row agr">
+        <div class="col-md-4">
+          <div className="ag">
+            <h1 className="agh">Bakkah at a Glance</h1>
+          </div>
+        </div>
+
+        <div class="col-md-8 popc">
+          <div class="row">
+            <div class="col-md-4 shadow boxd">
+              <div class="row">
+                <img
+                  className="icon"
+                  src="https://cdn-icons-png.flaticon.com/512/188/188379.png"
+                />
+                <div>
+                  <h1 className="heading">17500+</h1>
+                  <p className="para">Capabilities built</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 shadow boxd">
+            <div class="row">
+                <img
+                  className="icon"
+                  src="https://cdn-icons-png.flaticon.com/512/3068/3068380.png"
+                />
+                <div>
+                  <h1 className="heading">800+</h1>
+                  <p className="para">Learning Sessions</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 shadow boxd">
+            <div class="row">
+                <img
+                  className="icon"
+                  src="https://cdn-icons-png.flaticon.com/512/1786/1786971.png"
+                />
+                <div>
+                  <h1 className="heading">450+</h1>
+                  <p className="para">Client Engagements</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 shadow boxd">
+            <div class="row">
+                <img
+                  className="icon"
+                  src="https://cdn-icons-png.flaticon.com/512/3094/3094843.png"
+                />
+                <div>
+                  <h1 className="heading">200+</h1>
+                  <p className="para">Partners of Success</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* <div class="row">
+        <div class="col-md-4"></div>
+
+        <div class="col-md-8">
+          <div class="row popc">
+            <div class="col-md-4 shadow boxd">
+              <div class="row">
+                <img
+                  className="icon"
+                  src="https://cdn-icons-png.flaticon.com/512/188/188379.png"
+                />
+                <div>
+                  <h1 className="heading">17500+</h1>
+                  <p className="para">Capabilities built</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 shadow boxd">
+              <div class="row">
+                <img
+                  className="icon"
+                  src="https://cdn-icons-png.flaticon.com/512/188/188379.png"
+                />
+                <div>
+                  <h1 className="heading">17500+</h1>
+                  <p className="para">Capabilities built</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> */}
     </Container>
   );
 };

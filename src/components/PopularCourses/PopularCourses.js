@@ -1,36 +1,65 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import { Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
+import "./Popular.css";
 
 const PopularCourses = () => {
   return (
-    <Container>
-      <Row>
-        <Col sm>
-          <h1>
-            <strong>Popular Courses</strong>
-          </h1>
-        </Col>
-        <Col sm>
-          <img src="logo192.png" alt="" />
-          <h3>Business Development</h3>
-          <p></p>
-          <a href="">Start Course</a>
-        </Col>
-        <Col sm>
-          <img src="logo192.png" alt="" />
-          <h3>Team Management</h3>
-          <p></p>
-          <a href="">Start Course</a>
-        </Col>
-        <Col sm>
-        <img src="logo192.png" alt="" />
-          <h3>Digital Marketing</h3>
-          <p></p>
-          <a href="#">Start Course</a>
-        </Col>
-      </Row>
+    <Container className="container-fluid Pop">
+      <div className="row popr">
+        <div class="col-md-3 col-sm-3 col-lg-3">
+          <div className="pc">
+          <h1 className="pch">Popular Videos</h1>
+          </div>
+        </div>
+        <div className="col-md-3 col-sm-3 col-lg-3">
+          <div className="card shadow">
+            <iframe
+              class="card-img-top"
+              src="https://www.youtube.com/embed/x9C_f1fcKVs"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Business Development</h5>
+              <a className="link" href="#">Start Course</a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3 col-sm-3 col-lg-3">
+          <div class="card shadow">
+            <iframe
+              class="card-img-top"
+              src="https://www.youtube.com/embed/f4CF-qBDu5o"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Team Management</h5>
+              <a className="link" href="#">Start Course</a>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-3 col-sm-3 col-lg-3">
+          <div class="card shadow">
+            <iframe
+              class="card-img-top"
+              src="https://www.youtube.com/embed/bixR-KIJKYM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Digital Marketing</h5>
+              <a className="link" href="#">Start Course</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </Container>
   );
 };

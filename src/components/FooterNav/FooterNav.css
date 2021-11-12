@@ -1,0 +1,40 @@
+.popf{
+    background-color: #342475;
+    padding: 20px 160px 60px 0px;
+    margin-bottom: 50px;
+    margin-top: -110px;
+    border-radius: 70px 70px 0 0;
+}
+
+.footnav{
+    float: right;
+    justify-content: space-between;
+}
+
+.logoreactf{
+    width: 3rem;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.ancf{
+    color: white;
+}
+.ancf:hover{
+    color: #ff4000;
+    text-decoration: underline;
+}
+
+
+.logotif{
+    color: white;
+    padding: 0px 0px 0px 20px ;
+}
+.logotif:hover{
+    color: #ff4000;
+    text-decoration: none;
+}
+
+.logof{
+    padding-left: 62px;
+}

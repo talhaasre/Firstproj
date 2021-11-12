@@ -1,0 +1,35 @@
+.Popl{
+    background-color: #291c5e;
+    padding:0px 160px 0px 0px;
+    margin-bottom: 0px;
+    margin-top: -110px;
+    border-radius: 70px 70px 0 0;
+    
+}
+
+.popl{
+    padding: 0px 0px 0px 0px;
+}
+
+.subc{
+    color: white;
+    padding-top: 25px;
+}
+
+
+.socialc{
+    width: 200px;
+}
+
+.socialct{
+    pointer-events: none;
+    padding-left: 25px;
+}
+
+.socialc:hover{
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+

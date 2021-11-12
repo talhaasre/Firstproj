@@ -1,0 +1,44 @@
+.Pop{
+    background-color: #8e58d1;
+    padding: 70px 50px 100px 0px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    border-radius: 70px 70px 0 0;
+    
+}
+
+.popr{
+    padding: 0px 35px 0px 0px;
+    align-items: stretch;
+}
+
+.card{
+    border-radius: 20px;
+    box-shadow:1px black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 0 0 0 0;
+}
+
+.pc{
+    padding-left: 65px;
+    
+}
+
+.pch{
+    color: white;
+    font-weight: bolder;
+    font-size: 45px;
+    padding: 0 0px 0 10px;
+    border-left: 6px solid white;
+}
+
+.link{
+    color: #ff4000;
+    border-bottom: 2px solid #ff4000;
+}
+.link:hover{
+    color: black;
+    border-bottom: none;
+}

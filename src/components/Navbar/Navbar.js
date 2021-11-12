@@ -1,56 +1,119 @@
 import React, { Component } from "react";
-import { MenuItems } from "./MenuItems";
-import './Navbar.css';
 import { Container } from "react-bootstrap";
-import { Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
+import "./Navbar.css";
 
-class Navbar extends Component {
-    state = {clicked: false}
+const Navbar = () => {
+  return (
+    <Container class="container-fluid">
+      <div class="row popn">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner cin">
+            <div class="carousel-item active">
+              <img class="w-100" src="cam2.jpg" alt="First slide" />
+            </div>
+            <div class="carousel-item">
+              <img class="w-100" src="cam1.jpg" alt="Second slide" />
+            </div>
+            <div class="carousel-item">
+              <img class="w-100" src="cam3.jpg" alt="Third slide" />
+            </div>
 
-    handleClick = () => {
-        this.setState({clicked: !this.state.clicked})
-    }
-
-  render() {
-    return (
-      <Container>
-  <Row>
-    <Col sm={4}>
-    <img src="logo192.png" alt="" width="75" height="75"/>
-    </Col>
-    <Col sm={8}>
-    <ul>
-            <a>Home</a>
-            <a>Consulting</a>
-            <a>Training</a>
-            <a>Examinations</a>
-            <a>Cleints</a>
-            <a>Company</a>
-            <button>Register</button>
-          </ul>
-    </Col>
-  </Row>
-
-      { <nav className="NavbarItems">
-        <h1 className="navbar-logo">React<i className="fab fa-react"></i></h1>
-        <div className="menu-icon" onClick={this.handleClick}>
-            <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+            <div class="row">
+              <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <div>
+                  <a class="navbar-brand" href="#">
+                    <img class="logoreact" src="logo192.png" />
+                    <a className="logoti" href="#">
+                      Bakkah
+                    </a>
+                  </a>
+                </div>
+              </div>
+              <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                <nav class="navbar navbar-expand-lg topnav">
+                  <div class="container-fluid">
+                    <button
+                      class="navbar-toggler"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarNavAltMarkup"
+                      aria-controls="navbarNavAltMarkup"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                      class="collapse navbar-collapse"
+                      id="navbarNavAltMarkup"
+                    >
+                      <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">
+                          Home
+                        </a>
+                        <a class="nav-link" aria-current="page" href="#">
+                          Consulting
+                        </a>
+                        <a class="nav-link" aria-current="page" href="#">
+                          Training
+                        </a>
+                        <a class="nav-link" aria-current="page" href="#">
+                          Examinations
+                        </a>
+                        <a class="nav-link" aria-current="page" href="#">
+                          Knowledge
+                        </a>
+                        <a class="nav-link" aria-current="page" href="#">
+                          Clients
+                        </a>
+                        <a class="nav-link" aria-current="page" href="#">
+                          Company
+                        </a>
+                      </div>
+                      <div>
+                        <button type="button" class="button1">
+                          Register
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+                <div class="row headingban">
+                  <div class="col-md">
+                  <h5>NEXT COURSE STARTS FROM 1 DEC 2021</h5>
+                  <h1>Professional Scrum Developer</h1>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
-          {MenuItems.map((item, index) => {
-            return (
-              <li key={index}>
-                <a className={item.cName} href={item.url}>{item.title}</a>
-              </li>
-            );
-          })}
-        </ul>
-        <Button>Register</Button>
-      </nav> }
-      </Container>
-    );
-  }
-}
+
+        <a
+          class="carousel-control-prev cin"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next cin"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </Container>
+  );
+};
 
 export default Navbar;

@@ -1,23 +1,25 @@
+import React from 'react';
 import './App.css';
-import Navbar from "./components/Navbar/Navbar";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import OurServices from './components/OurServices/OurServices';
-import PopularCourses from './components/PopularCourses/PopularCourses';
 import AtGlance from './components/AtGlance/AtGlance';
+import PopularCourses from './components/PopularCourses/PopularCourses';
 import SubscribeNews from './components/Subscribe/SubscribeNews';
+import Navbar from './components/Navbar/Navbar';
 import FooterNav from './components/FooterNav/FooterNav';
+import Copyright from './components/Copyright/Copyright';
 
 function App() {
   return (
     <>
     <div className="App">
-      <Navbar />
     </div>
+    <Navbar />
     <OurServices />
     <PopularCourses />
     <AtGlance />
     <SubscribeNews />
     <FooterNav />
+    <Copyright />
     </>
   );
 }

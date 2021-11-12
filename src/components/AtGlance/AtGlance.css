@@ -1,0 +1,38 @@
+.popag{
+    background-color: #e9ecf0;
+    border-radius: 70px 70px 0 0;
+    padding: 30px 20px 100px 20px;
+    margin-top: -110px;
+}
+
+.agh{
+    color: black;
+    font-weight: bolder;
+    font-size: 45px;
+    padding: 0px 50px 0px 10px;
+    border-left: 6px solid black;
+    margin-top: 70px;
+}
+
+.popc{
+    justify-content: left;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.icon{
+    width: 50px;
+    margin: 25px 25px 25px -50px;
+}
+
+.boxd{
+    margin: 20px 70px 0px -50px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.heading{
+    padding-top: 10px;
+    color: hsl(266, 62%, 42%);
+}

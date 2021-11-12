@@ -1,0 +1,20 @@
+.link{
+    color: #ff4000;
+    border-bottom: 2px solid #ff4000;
+}
+.link:hover{
+    color: black;
+    border-bottom: none;
+}
+
+.card{
+    border-radius: 20px;
+    box-shadow:1px black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.card-img-top{
+    border-radius: 20px 20px 0 0;
+}
