@@ -22,7 +22,7 @@ const PopularCourses = () => {
               allowfullscreen
             ></iframe>
             <div class="card-body">
-              <h5 class="card-title">Business Development</h5>
+              <h5 class="card-title">Learn Business</h5>
               <a className="link" href="#">Start Course</a>
             </div>
           </div>

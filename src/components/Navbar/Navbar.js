@@ -52,7 +52,7 @@ const Navbar = () => {
                       id="navbarNavAltMarkup"
                     >
                       <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">
+                        <a class="nav-link" aria-current="page" href="#">
                           Home
                         </a>
                         <a class="nav-link" aria-current="page" href="#">
@@ -86,6 +86,12 @@ const Navbar = () => {
                   <div class="col-md">
                   <h5>NEXT COURSE STARTS FROM 1 DEC 2021</h5>
                   <h1>Professional Scrum Developer</h1>
+                </div>
+                </div>
+                <div class="row headingmob">
+                  <div class="col-md">
+                  <h6>Next Course Starts from 21st Dec</h6>
+                  <h6>PROFESSIONAL SCRUM DEVELOPER</h6>
                 </div>
                 </div>
               </div>

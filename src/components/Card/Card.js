@@ -11,7 +11,7 @@ const Card = () => {
             <div class="card-body">
               <h5 class="card-title">Management Consulting Services</h5>
               <p class="card-text">
-              We practice a methodology that we have developed over 10 years, based on local and global best practices
+              We practice a methodology that we have developed over 10 years, based global best practices
               </p>
               <a className="link" href="#">
                 View All Services
