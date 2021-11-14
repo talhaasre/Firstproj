@@ -67,7 +67,7 @@
   color: black;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 575px) and (min-width: 280px) {
   .popn {
     background-color: transparent;
     margin-bottom: 0px;
@@ -88,23 +88,69 @@
   .headingmob {
     display: inline;
     color: white;
-    justify-content: center;
     object-fit: fill;
+    /* padding-left: ; */
+  }
+
+  .textover {
+    padding-left: 40px;
+  }
+
+  .logotext {
+    text-align: center;
+    padding-right: 40px;
+  }
+
+  .logoreact {
+    width: 2rem;
+  }
+
+  .logoti {
+    font-size: 20px;
+    margin-top: 20px;
   }
 }
 
-@media screen and (max-width: 200px) {
+@media screen and (max-width: 991px) and (min-width: 576px) {
+  .popn {
+    background-color: transparent;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 50px;
+    border-radius: 0 0 0 0;
+  }
+
   .cin {
-    height: 130px;
+    height: 300px;
     border-radius: 0px px 50px 50px;
+  }
+
+  .headingban {
+    display: none;
+  }
+
+  .headingmob {
+    display: inline;
+    color: white;
     object-fit: fill;
   }
+
+  .textover {
+    padding-top: 100px;
+    margin-left: -100px;
+  }
+
+  .logotext {
+    text-align: center;
+    padding-right: 40px;
+  }
+
   .logoreact {
     width: 2rem;
-    justify-content: left;
-    padding-top: 0px;
   }
+
   .logoti {
-    color: white;
+    font-size: 20px;
+    margin-top: 20px;
   }
 }

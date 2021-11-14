@@ -51,3 +51,173 @@
     border-radius: 20px 20px 0 0;
 }
 
+@media screen and (max-width: 415px) {
+    .popos{
+        background-color: #e9ecf0;
+        padding: 100px 50px 100px 0px;
+        margin-bottom: -50px;
+        margin-top: -90px;
+        border-radius: 70px 70px 0 0;
+    }
+    
+    .osh{
+        font-weight: bolder;
+        font-size: 30px;
+        padding: 0px 0px 0 0px;
+        border-left: 0px solid black;
+    }
+    
+    .btn{
+        margin-top: -40px;
+        border: 1px solid #ff4000;
+        border-radius: 10px;
+        float: right;
+    }
+
+    .twocard{
+        margin:10px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 575px) and (min-width: 416px) {
+    .popos{
+        background-color: #e9ecf0;
+        padding: 110px 50px 100px 0px;
+        margin-bottom: -50px;
+        margin-top: -90px;
+        border-radius: 70px 70px 0 0;
+    }
+    
+    .osh{
+        font-weight: bolder;
+        font-size: 35px;
+        padding: 0px 0px 0 10px;
+        border-left: 0px solid black;
+    }
+    
+    .btn{
+        margin-top: -45px ;
+        border: 1px solid #ff4000;
+        border-radius: 10px;
+        float: right;
+    }
+
+    .twocard{
+        margin:10px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    .popos{
+        background-color: #e9ecf0;
+        padding: 90px 50px 100px 0px;
+        margin-bottom: -50px;
+        margin-top: -120px;
+        border-radius: 70px 70px 0 0;
+    }
+
+    .osh{
+        font-weight: bolder;
+        font-size: 40px;
+        padding: 0px 0px 0 10px;
+        border-left: 0px solid black;
+    }
+    
+    .btn{
+        margin-top: -50px ;
+        border: 1px solid #ff4000;
+        border-radius: 10px;
+        float: right;
+    }
+
+    .twocard{
+        margin:10px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
+    .popos{
+        background-color: #e9ecf0;
+        padding: 40px 50px 100px 0px;
+        margin-bottom: -50px;
+        margin-top: -50px;
+        border-radius: 70px 70px 0 0;
+    }
+    .osh{
+        font-weight: bolder;
+        font-size: 40px;
+        padding: 0px 70px 0 10px;
+        border-left: 6px solid black;
+    }
+
+    .os{
+        padding: 0 0 0 0px;
+    }
+
+    .btn{
+        margin-top: 280px ;
+        border: 1px solid #ff4000;
+        border-radius: 10px;
+    }
+
+    .twocard{
+        margin: -10px -10px -10px -40px;
+
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 992px) {
+    .popos{
+        background-color: #e9ecf0;
+        padding: 100px 50px 100px 0px;
+        margin-bottom: -50px;
+        margin-top: -50px;
+        border-radius: 70px 70px 0 0;
+    }
+
+    .osh{
+        font-weight: bolder;
+        font-size: 40px;
+        padding: 0px 70px 0 10px;
+        border-left: 6px solid black;
+    }
+
+    .btn{
+        margin-top: 250px ;
+        border: 1px solid #ff4000;
+        border-radius: 10px;
+    }
+    .os{
+        padding: 0 0 0 20px;
+    }
+
+    .twocard{
+        margin: -10px -10px -10px -40px;
+
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .popos{
+        background-color: #e9ecf0;
+        padding: 100px 50px 100px 0px;
+        margin-bottom: -50px;
+        margin-top: -50px;
+        border-radius: 70px 70px 0 0;
+    }
+    .osh{
+        font-weight: bolder;
+        font-size: 40px;
+        padding: 0px 70px 0 10px;
+        border-left: 6px solid black;
+    }
+
+    .btn{
+        margin-top: 270px ;
+        border: 1px solid #ff4000;
+        border-radius: 10px;
+    }
+    .twocard{
+        margin:10px 0 10px -40px;
+    }
+}

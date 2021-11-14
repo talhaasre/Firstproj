@@ -15,10 +15,10 @@ const OurServices = () => {
             </button>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 twocard">
             <Card />
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 twocard">
             <div class="card shadow">
               <img
                 class="card-img-top"

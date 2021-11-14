@@ -9,8 +9,7 @@ const Navbar = () => {
         <div
           id="carouselExampleControls"
           class="carousel slide"
-          data-ride="carousel"
-        >
+          data-ride="carousel">
           <div class="carousel-inner cin">
             <div class="carousel-item active">
               <img class="w-100" src="cam2.jpg" alt="First slide" />
@@ -24,7 +23,7 @@ const Navbar = () => {
 
             <div class="row">
               <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <div>
+                <div className="logotext">
                   <a class="navbar-brand" href="#">
                     <img class="logoreact" src="logo192.png" />
                     <a className="logoti" href="#">
@@ -89,7 +88,7 @@ const Navbar = () => {
                 </div>
                 </div>
                 <div class="row headingmob">
-                  <div class="col-md">
+                  <div class="col-md" className="textover"> 
                   <h6>Next Course Starts from 21st Dec</h6>
                   <h6>PROFESSIONAL SCRUM DEVELOPER</h6>
                 </div>

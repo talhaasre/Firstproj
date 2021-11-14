@@ -20,7 +20,7 @@ const AtGlance = () => {
                   className="icon"
                   src="https://cdn-icons-png.flaticon.com/512/188/188379.png"
                 />
-                <div>
+                <div class="headt">
                   <h1 className="heading">17500+</h1>
                   <p className="para">Capabilities built</p>
                 </div>
@@ -32,7 +32,7 @@ const AtGlance = () => {
                   className="icon"
                   src="https://cdn-icons-png.flaticon.com/512/3068/3068380.png"
                 />
-                <div>
+                <div class="headt">
                   <h1 className="heading">800+</h1>
                   <p className="para">Learning Sessions</p>
                 </div>
@@ -46,7 +46,7 @@ const AtGlance = () => {
                   className="icon"
                   src="https://cdn-icons-png.flaticon.com/512/1786/1786971.png"
                 />
-                <div>
+                <div class="headt">
                   <h1 className="heading">450+</h1>
                   <p className="para">Client Engagements</p>
                 </div>
@@ -58,7 +58,7 @@ const AtGlance = () => {
                   className="icon"
                   src="https://cdn-icons-png.flaticon.com/512/3094/3094843.png"
                 />
-                <div>
+                <div class="headt">
                   <h1 className="heading">200+</h1>
                   <p className="para">Partners of Success</p>
                 </div>

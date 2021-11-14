@@ -71,3 +71,135 @@
     padding-left: 65px;
     padding-top: 30px;
 }
+
+@media screen and (max-width: 415px) {
+    .Popsb{
+        background-color: #432f96;
+        padding: 0px 50px 70px 1px;
+        margin-bottom: 50px;
+        margin-top: -50px;
+        border-radius: 70px 70px 0 0;
+        
+    }
+    
+    .pops{
+        padding: 0px;
+        align-items: stretch;
+    }
+
+    .sb{
+        padding-left: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    .subsh{
+        color: white;
+    }
+
+    .socialt{
+        margin: -10px 12px 20px 12px;
+    }
+    
+    .call{
+        width: 30px;
+        margin-right: 10px;
+        background-color: transparent;
+        border-radius: 20px;
+    }
+    
+    .social{
+        width: 35px;
+    }
+}
+
+@media screen and (max-width: 575px) and (min-width: 416px) {
+    .Popsb{
+        background-color: #432f96;
+        padding: 0px 50px 70px 1px;
+        margin-bottom: 50px;
+        margin-top: -50px;
+        border-radius: 70px 70px 0 0;
+        
+    }
+    
+    .pops{
+        padding: 0px;
+        align-items: stretch;
+    }
+
+    .sb{
+        padding-left: 150px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    
+    .subsh{
+        color: white;
+    }
+
+    .socialt{
+        margin: -35px 34px 20px 33px;
+    }
+    
+    .call{
+        width: 30px;
+        margin-right: 10px;
+        background-color: transparent;
+        border-radius: 20px;
+    }
+    
+    .social{
+        width: 35px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    .Popsb{
+        background-color: #432f96;
+        padding: 10px 50px 70px 1px;
+        margin-bottom: 50px;
+        margin-top: -50px;
+        border-radius: 70px 70px 0 0;
+        
+    }
+    
+    .pops{
+        padding: 10px;
+        align-items: stretch;
+    }
+
+    .sb{
+        padding-left: 20px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        
+    }
+    
+    .subsh{
+        color: white;
+        padding-top: 50px;
+        margin: 0px -130px 0 0;
+    }
+
+    .socialt{
+        margin: -35px 34px 20px 33px;
+    }
+    
+    .call{
+        width: 30px;
+        margin-right: 10px;
+        background-color: transparent;
+        border-radius: 20px;
+    }
+    
+    .social{
+        width: 35px;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px) {}
+
+@media screen and (max-width: 1280px) and (min-width: 992px) {}
+
+@media screen and (min-width: 1281px) {}

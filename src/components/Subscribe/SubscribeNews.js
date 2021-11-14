@@ -18,9 +18,9 @@ const SubscribeNews = () => {
           </div>
         </div>
         <div className="col-md-4 col-sm-4 col-lg-4">
-          <div>
+          <div className="subsh">
             <div>
-              <h5 className="subsh">Subscribe to Our Newsletter</h5>
+              <h5>Subscribe to Our Newsletter</h5>
             </div>
             <div className="input-group mb-3">
               <input
