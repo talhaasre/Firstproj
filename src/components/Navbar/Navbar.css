@@ -70,7 +70,7 @@
 .navbar-toggler-icon{
   background-color: white;
   background-image: url("https://cdn0.iconfinder.com/data/icons/user-interface-150/24/List_menu_toggle-512.png");
-  margin-top: ;
+  
 }
 
 @media screen and (max-width: 575px) {
@@ -103,7 +103,7 @@
   }
 
   .logotext {
-    text-align: center;
+    text-align: start;
     padding-right: 40px;
   }
 
@@ -116,10 +116,21 @@
     margin-top: 20px;
   }
 
-  .navbar-toggler-icon{
-    background-color: white;
+
+  .navbar-toggler{
     background-image: url("https://cdn0.iconfinder.com/data/icons/user-interface-150/24/List_menu_toggle-512.png");
-    margin-top: -100px;
+    margin-top: -50px;
+    padding-right: 50px;
+  }
+
+  .nav-link{
+    font-size: 10px;
+    padding: 0;
+  }
+
+  .button1 {
+    padding: 0px 5px 0px 5px;
+    margin-top: 0px;
   }
 }
 
@@ -153,7 +164,7 @@
   }
 
   .logotext {
-    text-align: center;
+    text-align: start;
     padding-right: 40px;
   }
 
@@ -164,5 +175,19 @@
   .logoti {
     font-size: 20px;
     margin-top: 20px;
+  }
+
+  .navbar-toggler{
+    padding-right: 50px;
+  }
+
+  .nav-link{
+    font-size: 12px;
+    padding: 0;
+  }
+
+  .button1 {
+    padding: 0px 5px 0px 5px;
+    margin-top: 0px;
   }
 }
