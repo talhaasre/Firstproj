@@ -5,7 +5,7 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-md navbar-light">
+      <nav class="navbar navbar-expand-md navbar-thm">
       <a href="#" class="navbar-brand">
       <img src="logo192.png" width="30" height="30" class="d-inline-block align-top" alt=""/> Talha
       </a>

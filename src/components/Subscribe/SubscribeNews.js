@@ -38,7 +38,7 @@ const SubscribeNews = () => {
         </div>
         <div className="col-md-4 col-sm-4 col-lg-4">
           <div class="socialt">
-            <a class="socialt" href="#">
+            <a class="socialt" href="https://m.facebook.com/people/Talha-Asre/100011268875051/">
               <img
                 class="social"
                 src="fb.png"
@@ -50,7 +50,7 @@ const SubscribeNews = () => {
                 src="twitter.png"
               />
             </a>
-            <a class="socialt" href="#">
+            <a class="socialt" href="https://in.linkedin.com/in/talhaasre">
               <img
                 class="social"
                 src="linkedin.png"
