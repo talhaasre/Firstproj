@@ -75,7 +75,7 @@
 @media screen and (max-width: 415px) {
     .Popsb{
         background-color: #432f96;
-        padding: 0px 50px 70px 1px;
+        padding: 0px 0px 50px 0px;
         margin-bottom: 50px;
         margin-top: -50px;
         border-radius: 70px 70px 0 0;
@@ -83,14 +83,11 @@
     }
     
     .pops{
-        padding: 0px;
         align-items: stretch;
     }
 
     .sb{
-        padding-left: 50px;
-        padding-top: 25px;
-        padding-bottom: 25px;
+        padding-bottom: 10px;
     }
     
     .subsh{
@@ -99,6 +96,7 @@
 
     .socialt{
         margin: -10px 12px 20px 12px;
+        
     }
     
     .call{
@@ -139,7 +137,8 @@
     }
 
     .socialt{
-        margin: -35px 34px 20px 33px;
+        margin: -35px 20px 20px 15px;
+        
     }
     
     .call{

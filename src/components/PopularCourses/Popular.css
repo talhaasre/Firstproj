@@ -21,11 +21,6 @@
     margin: 0 0 0 0;
 }
 
-.pc{
-    padding-left: 65px;
-    
-}
-
 .pch{
     color: white;
     font-weight: bolder;
@@ -46,31 +41,37 @@
 @media screen and (max-width: 415px) {
     .Pop{
         background-color: #8e58d1;
-        padding: 10px 0 100px 40px;
+        padding: 10px 0 100px 0px;
         margin-bottom: 50px;
         margin-top: -80px;
         border-radius: 70px 70px 0 0;
         
     }
 
+    .popr{
+        padding: 20px;
+        align-items: stretch;
+    }
+
     .pc{
-        padding-left: 60px;
+        align-items: center;
     }
 
     .pch{
         color: white;
         font-weight: bolder;
-        font-size: 30px;
-        padding: 0 0px 0 10px;
-        margin-left: -30px;
-        border-left: 6px solid white;
+        padding: 0px 0px 0px 0px;
+        border: none;
     }
 
     .card{
         border-radius: 20px;
         box-shadow:2px black;
-        align-items: stretch;
-        margin: 0 0px 20px -20px;
+        margin: 0 0px 20px 0px;
+    }
+
+    .rowd{
+        align-items: center;
     }
 }
 

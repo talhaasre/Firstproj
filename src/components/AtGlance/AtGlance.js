@@ -67,39 +67,6 @@ const AtGlance = () => {
           </div>
         </div>
       </div>
-
-      {/* <div class="row">
-        <div class="col-md-4"></div>
-
-        <div class="col-md-8">
-          <div class="row popc">
-            <div class="col-md-4 shadow boxd">
-              <div class="row">
-                <img
-                  className="icon"
-                  src="https://cdn-icons-png.flaticon.com/512/188/188379.png"
-                />
-                <div>
-                  <h1 className="heading">17500+</h1>
-                  <p className="para">Capabilities built</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 shadow boxd">
-              <div class="row">
-                <img
-                  className="icon"
-                  src="https://cdn-icons-png.flaticon.com/512/188/188379.png"
-                />
-                <div>
-                  <h1 className="heading">17500+</h1>
-                  <p className="para">Capabilities built</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </Container>
   );
 };

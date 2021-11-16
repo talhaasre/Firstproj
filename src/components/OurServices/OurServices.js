@@ -10,7 +10,7 @@ const OurServices = () => {
         <div class="col-md-3">
           <div class="os">
             <h1 class="osh">Our Services</h1>
-            <button type="button" class="btn btn-light">
+            <button type="button" class="btn btn-light btnr">
               Register Now
             </button>
           </div>

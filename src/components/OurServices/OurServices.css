@@ -74,6 +74,9 @@
         float: right;
     }
 
+    .btnr{
+        display: none;
+    }
     .twocard{
         margin:10px 0 10px 0;
     }
@@ -112,7 +115,7 @@
         background-color: #e9ecf0;
         padding: 90px 50px 100px 0px;
         margin-bottom: -50px;
-        margin-top: -120px;
+        margin-top: -70px;
         border-radius: 70px 70px 0 0;
     }
 
@@ -140,8 +143,8 @@
         background-color: #e9ecf0;
         padding: 40px 50px 100px 0px;
         margin-bottom: -50px;
-        margin-top: -50px;
-        border-radius: 70px 70px 0 0;
+        margin-top: 0px;
+        border-radius: 0;
     }
     .osh{
         font-weight: bolder;

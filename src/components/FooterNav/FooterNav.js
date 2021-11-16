@@ -11,25 +11,14 @@ const FooterNav = () => {
             <a class="navbar-brand" href="#">
               <img class="logoreactf" src="logo192.png"/>
               <a className="logotif" href="#">
-                    Bakkah
+                    Talha
                   </a>
             </a>
           </div>
         </div>
         <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-          <nav class="navbar navbar-expand-lg footnav">
+          <nav class="navbar footnav">
             <div class="container-fluid">
-              <button
-                class="navbar-toggler"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <span class="navbar-toggler-icon"></span>
-              </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link ancf" aria-current="page" href="#">
