@@ -24,3 +24,7 @@
 .navbr:hover{
   color: black;
 }
+
+.carousel-caption{
+  font-weight: bolder;
+}
