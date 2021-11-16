@@ -48,22 +48,22 @@ const Navbar = () => {
     <div class="carousel-item active">
       <img class="d-block w-100" src="image1.png" alt="First slide" />
       <div class="carousel-caption d-md-block">
-      <p>Made in ReactJs components</p>
+      <p>Built in ReactJs components</p>
       <h1>Talha Asre</h1>
   </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="image2.png" alt="Second slide" />
       <div class="carousel-caption d-md-block">
-      <p>I've basic knowledge of C# and .Net framework</p>
-      <h1>.Net Technologies</h1>
+      <p>Bootstrap and .Net 4.6</p>
+      <h1>Framework</h1>
   </div>
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="image3.png" alt="Third slide" />
       <div class="carousel-caption d-md-block">
-      <p>I've basic knowledge of C# and .Net framework</p>
-      <h1>.Net Technologies</h1>
+      <p>Basic of C#</p>
+      <h1>Backend</h1>
   </div>
     </div>
   </div>
