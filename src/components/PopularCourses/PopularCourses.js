@@ -4,7 +4,7 @@ import "./Popular.css";
 
 const PopularCourses = () => {
   return (
-    <Container className="container-fluid Pop">
+    <div className="container-fluid Pop">
       <div className="row popr">
         <div class="col-md-3">
           <div className="pc">
@@ -70,7 +70,7 @@ const PopularCourses = () => {
           </div>
         </div>
       </div>
-    </Container>
+    </div>
   );
 };
 

@@ -4,7 +4,7 @@ import "./Subscribe.css";
 
 const SubscribeNews = () => {
   return (
-    <Container className="container-fluid Popsb">
+    <div className="container-fluid Popsb">
       <div className="row pops">
         <div class="col-md-4 col-sm-4 col-lg-4">
           <div className="sb">
@@ -65,7 +65,7 @@ const SubscribeNews = () => {
           </div>
         </div>
       </div>
-    </Container>
+    </div>
   );
 };
 

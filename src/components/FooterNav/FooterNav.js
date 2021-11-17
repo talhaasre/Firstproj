@@ -14,7 +14,6 @@ const FooterNav = () => {
 
         <img src="favicon.ico" />
         <a class="nvb" href="#"><h5>Talha</h5></a>
-
       </div>
       
       <hr class=" w-100 d-none" />
@@ -22,7 +21,7 @@ const FooterNav = () => {
       <div class="col-md-8 mb-md-0 mb-3">
         <ul class="list-unstyled">
         <li class="nav-item">
-            <a href="#" class="navbar-link nvb">Home</a>
+            <a href="#" class="navbar-link nvb ">Home</a>
           </li>
           <li class="nav-item">
             <a href="#" class="navbar-link nvb">Consulting</a>

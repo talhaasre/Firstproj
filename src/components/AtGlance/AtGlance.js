@@ -4,7 +4,7 @@ import "./AtGlance.css";
 
 const AtGlance = () => {
   return (
-    <Container className="container-fluid popag">
+    <div className="container-fluid popag">
       <div class="row agr">
         <div class="col-md-4">
           <div className="ag">
@@ -67,7 +67,7 @@ const AtGlance = () => {
           </div>
         </div>
       </div>
-    </Container>
+    </div>
   );
 };
 

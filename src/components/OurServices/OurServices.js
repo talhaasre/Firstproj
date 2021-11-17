@@ -5,7 +5,7 @@ import "./OurServices.css";
 
 const OurServices = () => {
   return (
-    <Container class="container-fluid" className="popos">
+    <div class="container-fluid" className="popos">
       <div class="row">
         <div class="col-md-3">
           <div class="os">
@@ -38,7 +38,7 @@ const OurServices = () => {
           </div>
           <div class="col-md-1"></div>
         </div>
-    </Container>
+    </div>
   );
 };
 
