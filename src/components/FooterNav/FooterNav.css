@@ -1,40 +1,28 @@
 .popf{
     background-color: #342475;
-    padding: 20px 160px 60px 0px;
+    padding: 0px 0px 60px 0px;
     margin-bottom: 50px;
     margin-top: -110px;
     border-radius: 70px 70px 0 0;
 }
 
-.footnav{
-    float: right;
-    justify-content: space-between;
-}
+.navbar1 ul li{
+    display:inline-block;
+    margin: 20px;
+    
+ }
+ 
+ .columnmd4{
+    padding: 0;
+    text-align: center;
+ }
 
-.logoreactf{
-    width: 3rem;
-    justify-content: center;
-    padding-top: 10px;
-}
+ .brandn{
+     color: orangered;
+ }
 
-.ancf{
-    color: white;
-}
-.ancf:hover{
-    color: #ff4000;
-    text-decoration: underline;
-}
-
-
-.logotif{
-    color: white;
-    padding: 0px 0px 0px 20px ;
-}
-.logotif:hover{
-    color: #ff4000;
-    text-decoration: none;
-}
-
-.logof{
-    padding-left: 62px;
-}
+ @media only screen and (min-width: 767px){
+    .columnmd4{
+        padding: 0 0 0 90px;
+    }
+ }
