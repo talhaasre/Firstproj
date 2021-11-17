@@ -17,9 +17,15 @@
     text-align: center;
  }
 
- .brandn{
-     color: orangered;
- }
+ .nvb{
+    color: #ff4000;
+    margin-right: 20px;
+  }
+  
+  .nvb:hover{
+    color: white;
+    text-decoration: none;
+  }
 
  @media only screen and (min-width: 767px){
     .columnmd4{

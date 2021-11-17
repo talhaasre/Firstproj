@@ -13,7 +13,7 @@ const FooterNav = () => {
       <div class="col-md-4 columnmd4">
 
         <img src="favicon.ico" />
-        <a class="brandn" href="#"><h5>Talha</h5></a>
+        <a class="nvb" href="#"><h5>Talha</h5></a>
 
       </div>
       
@@ -22,22 +22,22 @@ const FooterNav = () => {
       <div class="col-md-8 mb-md-0 mb-3">
         <ul class="list-unstyled">
         <li class="nav-item">
-            <a href="#" class="navbar-link navbr">Home</a>
+            <a href="#" class="navbar-link nvb">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="navbar-link navbr">Consulting</a>
+            <a href="#" class="navbar-link nvb">Consulting</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="navbar-link navbr">Training</a>
+            <a href="#" class="navbar-link nvb">Training</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="navbar-link navbr">Examinations</a>
+            <a href="#" class="navbar-link nvb">Examinations</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="navbar-link navbr">Clients</a>
+            <a href="#" class="navbar-link nvb">Clients</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="navbar-link navbr">Company</a>
+            <a href="#" class="navbar-link nvb">Company</a>
           </li>
         </ul>
       </div>
