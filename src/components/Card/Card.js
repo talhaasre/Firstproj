@@ -13,7 +13,7 @@ const Card = () => {
               <p class="card-text">
               HTML5, CSS3, JavaScript and ReactJs in my best practice technologies to develop front-end.
               </p>
-              <a className="link" href="#">
+              <a className="link" /*href="#"*/>
                 Read More
               </a>
             </div>

@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <div>
       <nav class="navbar navbar-expand-md navbar-thm">
-      <a href="#" class="navbar-brand">
+      <a /*href="#"*/ class="navbar-brand">
       <img src="logo192.png" width="30" height="30" class="d-inline-block align-top" alt="Logo"/><p class="d-inline-block align-top navbr">Talha</p>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,25 +16,25 @@ const Navbar = () => {
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="#" class="navbar-link navbr">Home</a>
+            <a /*href="#"*/ class="navbar-link navbr">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="navbar-link navbr">Consulting</a>
+            <a /*href="#"*/ class="navbar-link navbr">Consulting</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="navbar-link navbr">Training</a>
+            <a /*href="#"*/ class="navbar-link navbr">Training</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="navbar-link navbr">Examinations</a>
+            <a /*href="#"*/ class="navbar-link navbr">Examinations</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="navbar-link navbr">Knowledge Center</a>
+            <a /*href="#"*/ class="navbar-link navbr">Knowledge Center</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="navbar-link navbr">Clients</a>
+            <a /*href="#"*/ class="navbar-link navbr">Clients</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="navbar-link navbr">Company</a>
+            <a /*href="#"*/ class="navbar-link navbr">Company</a>
           </li>
           <li class="nav-item">
             <button class="btnr">Register</button>

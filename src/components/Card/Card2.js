@@ -13,7 +13,7 @@ const Card2 = () => {
               <p class="card-text">
                 In backend I've basic practice of C# and I've experience of Bootstrap and .Net 4.6 framework
               </p>
-              <a className="link" href="#">
+              <a className="link" /*href="#"*/>
                 Read More
               </a>
             </div>
