@@ -8,7 +8,7 @@ const PopularCourses = () => {
       <div className="row popr">
         <div class="col-md-3">
           <div className="pc">
-            <h1 className="pch">Popular Videos</h1>
+            <h1 className="pch">Social Media Highlights</h1>
           </div>
         </div>
         <div class="col-md-9">
@@ -17,16 +17,16 @@ const PopularCourses = () => {
               <div className="card shadow">
                 <iframe
                   class="card-img-top"
-                  src="https://www.youtube.com/embed/x9C_f1fcKVs"
+                  src="https://www.youtube.com/embed/e5g2SLU3MJo"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
                 <div class="card-body">
-                  <h5 class="card-title">Learn Business</h5>
-                  <a className="link" href="#">
-                    Start Course
+                  <h5 class="card-title">Rahat Indori Top 10 Shayari <br /> <b class="alert-success">1.2M+</b> views</h5>
+                  <a className="link" href="https://www.youtube.com/c/immensescars">
+                    Visit YouTube
                   </a>
                 </div>
               </div>
@@ -35,16 +35,16 @@ const PopularCourses = () => {
               <div class="card shadow">
                 <iframe
                   class="card-img-top"
-                  src="https://www.youtube.com/embed/f4CF-qBDu5o"
+                  src="https://www.youtube.com/embed/peA3woMX0I8"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
                 <div class="card-body">
-                  <h5 class="card-title">Team Management</h5>
-                  <a className="link" href="#">
-                    Start Course
+                  <h5 class="card-title">A Tribute to Dilip Kumar<br /> <b class="alert-danger">652+</b> views</h5>
+                  <a className="link" href="https://www.youtube.com/c/immensescars">
+                    Visit YouTube
                   </a>
                 </div>
               </div>
@@ -53,16 +53,16 @@ const PopularCourses = () => {
               <div class="card shadow">
                 <iframe
                   class="card-img-top"
-                  src="https://www.youtube.com/embed/bixR-KIJKYM"
+                  src="https://www.youtube.com/embed/_xdXE0ftxGY"
                   title="YouTube video player"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
                 ></iframe>
                 <div class="card-body">
-                  <h5 class="card-title">Digital Marketing</h5>
-                  <a className="link" href="#">
-                    Start Course
+                  <h5 class="card-title">Hot Water Spring Miracle<br /> <b class="alert-info">3800+</b> views</h5>
+                  <a className="link" href="https://www.youtube.com/c/immensescars">
+                    Visit YouTube
                   </a>
                 </div>
               </div>

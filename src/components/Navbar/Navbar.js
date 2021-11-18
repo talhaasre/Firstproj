@@ -8,7 +8,7 @@ const Navbar = () => {
     <div>
       <nav class="navbar navbar-expand-md navbar-thm">
       <a href="#" class="navbar-brand">
-      <img src="logo192.png" width="30" height="30" class="d-inline-block align-top" alt=""/> Talha
+      <img src="logo192.png" width="30" height="30" class="d-inline-block align-top" alt="Logo"/><p class="d-inline-block align-top navbr">Talha</p>
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

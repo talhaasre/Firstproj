@@ -1,17 +1,17 @@
 import React from "react";
 import './Card.css';
 
-const Card = () => {
+const Card2 = () => {
     return (
         <div class="card shadow">
             <img
               class="card-img-top"
-              src="card1.png"
+              src="card2.png"
             />
             <div class="card-body">
-              <h5 class="card-title">Front-End Technologies</h5>
+              <h5 class="card-title">Backend and Framework</h5>
               <p class="card-text">
-              HTML5, CSS3, JavaScript and ReactJs in my best practice technologies to develop front-end.
+                In backend I've basic practice of C# and I've experience of Bootstrap and .Net 4.6 framework
               </p>
               <a className="link" href="#">
                 Read More
@@ -21,4 +21,4 @@ const Card = () => {
     );
 };
 
-export default Card;
+export default Card2;

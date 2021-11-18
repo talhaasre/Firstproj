@@ -11,7 +11,7 @@ const SubscribeNews = () => {
             class="call"
             src="https://cdn-icons-png.flaticon.com/512/455/455604.png"
           />
-          <a class="number" href="#">
+          <a class="number" /*href="#"*/>
             +91 7506377907
           </a>
         </div>
@@ -41,13 +41,13 @@ const SubscribeNews = () => {
           >
             <img class="social" src="fb.png" />
           </a>
-          <a class="socialt" href="#">
+          <a class="socialt" /*href="#"*/>
             <img class="social" src="twitter.png" />
           </a>
           <a class="socialt" href="https://in.linkedin.com/in/talhaasre">
             <img class="social" src="linkedin.png" />
           </a>
-          <a class="socialt" href="#">
+          <a class="socialt" /*href="#"*/>
             <img class="social" src="mail.png" />
           </a>
         </div>
