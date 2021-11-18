@@ -35,7 +35,7 @@ const FooterNav = () => {
           <li class="nav-item">
             <a class="navbar-link nvb">Clients</a>
           </li>
-          <li class="nav-item">
+          <li href="#" class="nav-item arrow">
             <a class="navbar-link nvb">Company</a>
           </li>
         </ul>
@@ -43,49 +43,6 @@ const FooterNav = () => {
       </div>
     </div>
   </footer>
-
-    // <Container class="container-fluid" className="popf">
-    //   <div class="row">
-    //     <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-    //       <div className="logof">
-    //         <a class="navbar-brand" href="#">
-    //           <img class="logoreactf" src="logo192.png"/>
-    //           <a className="logotif" href="#">
-    //                 Talha
-    //               </a>
-    //         </a>
-    //       </div>
-    //     </div>
-    //     <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
-    //       <nav class="navbar footnav">
-    //         <div class="container-fluid">
-    //           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    //             <div class="navbar-nav">
-    //               <a class="nav-link ancf" aria-current="page" href="#">
-    //                 Home
-    //               </a>
-    //               <a class="nav-link ancf" aria-current="page" href="#">
-    //                 Consulting
-    //               </a>
-    //               <a class="nav-link ancf" aria-current="page" href="#">
-    //                 Training
-    //               </a>
-    //               <a class="nav-link ancf" aria-current="page" href="#">
-    //                 Examinations
-    //               </a>
-    //               <a class="nav-link ancf" aria-current="page" href="#">
-    //                 Knowledge
-    //               </a>
-    //               <a class="nav-link ancf" aria-current="page" href="#">
-    //                 Clients
-    //               </a>
-    //               </div>
-    //           </div>
-    //         </div>
-    //       </nav>
-    //     </div>
-    //   </div>
-    // </Container>
   );
 };
 

@@ -26,6 +26,7 @@
 
 .navbr:hover{
   color: black;
+  cursor: pointer;
 }
 
 .carousel-caption{

@@ -9,7 +9,10 @@
 .navbar1 ul li{
     display:inline-block;
     margin: 20px;
-    
+ }
+ 
+.navbar1 ul li:hover{
+   cursor: pointer;
  }
  
  .columnmd4{
@@ -25,6 +28,7 @@
   .nvb:hover{
     color: #ff4000;
     text-decoration: none;
+    cursor: pointer;
   }
 
  @media only screen and (min-width: 767px){
