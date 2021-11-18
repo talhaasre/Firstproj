@@ -54,9 +54,26 @@
   
   .social{
       width: 35px;
+      margin: 10px;
   }
   
   .social:hover{
       border: 2px solid white;
       border-radius: 40px;
+  }
+
+  @media only screen and (max-width:767px) {
+    .Popsb{
+        display: grid;
+    }
+
+    .input-group{
+        width: 50%;
+        text-align: center;
+        margin : 0 auto;
+    }
+
+    .item {
+        margin: 5px 0 5px 0;
+      }
   }
