@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Container } from "react-bootstrap";
-import './FooterNav.css';
+import './FooterNav.scss';
 
 const FooterNav = () => {
   return (
@@ -12,7 +11,7 @@ const FooterNav = () => {
 
       <div class="col-md-4 columnmd4">
 
-        <img src="favicon.ico" />
+        <img src="favicon.ico" alt="favicon image" />
         <a class="nvb"><h5 class="d-inline-block align-center">Talha</h5></a>
       </div>
       

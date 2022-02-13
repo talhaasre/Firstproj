@@ -1,12 +1,11 @@
 import React from 'react';
-import './App.css';
-import OurServices from './components/OurServices/OurServices';
-import AtGlance from './components/AtGlance/AtGlance';
-import PopularCourses from './components/PopularCourses/PopularCourses';
-import SubscribeNews from './components/Subscribe/SubscribeNews';
-import Navbar from './components/Navbar/Navbar';
-import FooterNav from './components/FooterNav/FooterNav';
-import Copyright from './components/Copyright/Copyright';
+import OurServices from './pages/OurServices/OurServices';
+import AtGlance from './pages/AtGlance/AtGlance';
+import PopularCourses from './pages/PopularCourses/PopularCourses';
+import SubscribeNews from './pages/Subscribe/SubscribeNews';
+import Navbar from './pages/Navbar/Navbar';
+import FooterNav from './pages/FooterNav/FooterNav';
+import Copyright from './pages/Copyright/Copyright';
 
 function App() {
   return (
