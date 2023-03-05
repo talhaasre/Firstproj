@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MetaDecorator from "./components/MetaDecorator/MetaDecorator";
-import "./App.css";
 import Routing from "./Routing";
 
 function App() {
