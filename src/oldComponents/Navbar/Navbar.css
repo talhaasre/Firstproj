@@ -1,0 +1,35 @@
+.navbar {
+  background: #e9ecf0;
+}
+.navbar-toggler-icon {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/1828/1828551.png");
+}
+
+.btnr {
+  background-color: #ff4000;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.btnr:hover {
+  background-color: #f87f57;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.navbr {
+  color: #ff4000;
+  margin-right: 20px;
+  font-family: "Edwardian Script ITC";
+}
+
+.navbr:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.carousel-caption {
+  font-weight: bolder;
+}

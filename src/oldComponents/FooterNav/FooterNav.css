@@ -1,0 +1,38 @@
+.popf{
+    background-color: #342475;
+    padding: 0px 0px 60px 0px;
+    margin-bottom: 50px;
+    margin-top: -110px;
+    border-radius: 70px 70px 0 0;
+}
+
+.navbar1 ul li{
+    display:inline-block;
+    margin: 20px;
+ }
+ 
+.navbar1 ul li:hover{
+   cursor: pointer;
+ }
+ 
+ .columnmd4{
+    padding: 0;
+    text-align: center;
+ }
+
+ .nvb{
+    color: white;
+    margin-left: 20px;
+  }
+  
+  .nvb:hover{
+    color: #ff4000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+ @media only screen and (min-width: 767px){
+    .columnmd4{
+        padding: 0 0 0 90px;
+    }
+ }

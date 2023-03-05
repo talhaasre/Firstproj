@@ -1,0 +1,275 @@
+.Pop{
+    background-color: #8e58d1;
+    padding: 70px 50px 100px 0px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+    border-radius: 70px 70px 0 0;
+    
+}
+
+.popr{
+    padding: 0px 35px 0px 0px;
+    align-items: stretch;
+}
+
+.card{
+    border-radius: 20px;
+    box-shadow:1px black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 0 0 0 0;
+}
+
+.pch{
+    color: white;
+    font-weight: bolder;
+    font-size: 45px;
+    padding: 0 0px 0 10px;
+    border-left: 6px solid white;
+}
+
+.link{
+    color: #ff4000;
+    border-bottom: 2px solid #ff4000;
+}
+.link:hover{
+    color: black;
+    border-bottom: none;
+}
+
+@media screen and (max-width: 415px) {
+    .Pop{
+        background-color: #8e58d1;
+        padding: 10px 0 100px 0px;
+        margin-bottom: 50px;
+        margin-top: -80px;
+        border-radius: 70px 70px 0 0;
+        
+    }
+
+    .popr{
+        padding: 20px;
+        align-items: stretch;
+    }
+
+    .pc{
+        align-items: center;
+    }
+
+    .pch{
+        color: white;
+        font-weight: bolder;
+        padding: 0px 0px 0px 0px;
+        border: none;
+    }
+
+    .card{
+        border-radius: 20px;
+        box-shadow:2px black;
+        margin: 0 0px 20px 0px;
+    }
+
+    .rowd{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 575px) and (min-width: 416px) {
+    .Pop{
+        background-color: #8e58d1;
+        padding: 10px 0px 100px 40px;
+        margin-bottom: 50px;
+        margin-top: -80px;
+        border-radius: 70px 70px 0 0;
+        
+    }
+
+    .pc{
+        padding-left: 20px;
+    }
+    .pch{
+        color: white;
+        font-weight: bolder;
+        font-size: 40px;
+        padding: 0 0px 0 10px;
+        border-left: 6px solid white;
+    }
+
+    .card{
+        border-radius: 20px;
+        box-shadow:2px black;
+        align-items: stretch;
+        margin: 0 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 576px) {
+    .Pop{
+        background-color: #8e58d1;
+        padding: 10px 0px 100px 0px;
+        margin-bottom: 50px;
+        margin-top: 0px;
+        border-radius: 70px 70px 0 0;
+        
+    }
+    
+    .rowd{
+        padding: 0px 0px 0px 0px;
+        align-items: stretch;
+        margin: 0px -100px 0px -70px;
+    }
+    
+    .card{
+        border-radius: 20px;
+        box-shadow:1px black;
+        align-items: stretch;
+        margin: 0 0 0 0;
+    }
+    .card-title{
+        font-size: 15px;
+    }
+    
+    .pc{
+        padding-left: 100px;
+        
+    }
+    
+    .pch{
+        color: white;
+        font-weight: bolder;
+        font-size: 45px;
+        padding: 0 0px 0 10px;
+        border-left: 6px solid white;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 767px) {
+    .Pop{
+        background-color: #8e58d1;
+        padding: 30px 0px 100px 0px;
+        margin-bottom: 50px;
+        margin-top: -50px;
+        border-radius: 70px 70px 0 0;
+        
+    }
+    
+    .popr{
+        padding: 0px 0px 0px 0px;
+        align-items: stretch;
+    }
+    
+    .rowd{
+        padding: 0px 0px 0px 0px;
+        align-items: stretch;
+        margin: 0px -80px 0px -20px;
+    }
+    
+    .card{
+        border-radius: 20px;
+        box-shadow:1px black;
+        align-items: stretch;
+        margin: 0 0 0 0;
+    }
+
+    .card-title{
+        font-size: 15px;
+    }
+    
+    .pc{
+        padding-left: 65px;
+        
+    }
+    
+    .pch{
+        color: white;
+        font-weight: bolder;
+        font-size: 45px;
+        padding: 0 0px 0 10px;
+        border-left: 6px solid white;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 992px) {
+    .Pop{
+        background-color: #8e58d1;
+        padding: 30px 0px 100px 0px;
+        margin-bottom: 50px;
+        margin-top: -50px;
+        border-radius: 70px 70px 0 0;
+        
+    }
+    
+    .popr{
+        padding: 0px 0px 0px 0px;
+        align-items: stretch;
+    }
+    
+    .rowd{
+        padding: 0px 0px 0px 0px;
+        align-items: stretch;
+        margin: 0px -80px 0px -120px;
+    }
+    
+    .card{
+        border-radius: 20px;
+        box-shadow:1px black;
+        align-items: stretch;
+        margin: 0 0 0 0;
+    }
+    
+    .pc{
+        padding-left: 65px;
+        
+    }
+    
+    .pch{
+        color: white;
+        font-weight: bolder;
+        font-size: 45px;
+        padding: 0 0px 0 10px;
+        border-left: 6px solid white;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .Pop{
+        background-color: #8e58d1;
+        padding: 30px 0px 100px 0px;
+        margin-bottom: 50px;
+        margin-top: -50px;
+        border-radius: 70px 70px 0 0;
+        
+    }
+    
+    .popr{
+        padding: 0px 0px 0px 0px;
+        align-items: stretch;
+    }
+    
+    .rowd{
+        padding: 0px 0px 0px 0px;
+        align-items: stretch;
+        margin: 0px -80px 0px -120px;
+    }
+    
+    .card{
+        border-radius: 20px;
+        box-shadow:1px black;
+        align-items: stretch;
+        margin: 0 0 0 0;
+    }
+    
+    .pc{
+        padding-left: 65px;
+        
+    }
+    
+    .pch{
+        color: white;
+        font-weight: bolder;
+        font-size: 45px;
+        padding: 0 0px 0 10px;
+        border-left: 6px solid white;
+    }
+}

@@ -1,0 +1,24 @@
+.socialc{
+    width: 200px;
+}
+
+.socialct{
+    pointer-events: none;
+    padding-left: 25px;
+}
+
+.footer-copyright{
+    color: white;
+    background-color: #291c5e;
+    margin-top: -110px;
+    border-radius: 70px 70px 0 0;
+}
+
+.footer-copyright a{
+    color: #ff4000;
+}
+
+.footer-copyright a:hover{
+    color: white;
+    text-decoration: none;
+}

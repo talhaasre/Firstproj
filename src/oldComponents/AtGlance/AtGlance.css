@@ -1,0 +1,204 @@
+.popag{
+    background-color: #e9ecf0;
+    border-radius: 70px 70px 0 0;
+    padding: 30px 20px 100px 20px;
+    margin-top: -110px;
+}
+
+.agh{
+    color: black;
+    font-weight: bolder;
+    font-size: 45px;
+    padding: 0px 50px 0px 10px;
+    border-left: 6px solid black;
+    margin-top: 70px;
+}
+
+.agp{
+    color: red;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 0px 0px 0px 10px;
+}
+
+.popc{
+    justify-content: left;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.icon{
+    width: 50px;
+    margin: 25px 25px 25px -50px;
+}
+
+.boxd{
+    margin: 20px 70px 0px -50px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.heading{
+    padding-top: 10px;
+    color: hsl(266, 62%, 42%);
+}
+
+@media screen and (max-width: 415px) {
+    .popag{
+        background-color: #e9ecf0;
+        border-radius: 70px 70px 0 0;
+        padding: 0px 20px 50px 20px;
+        margin-top: -110px;
+    }
+    
+    .agh{
+        color: black;
+        font-weight: bolder;
+        font-size: 30px;
+        padding: 0px 0px 0px 10px;
+        border-left: 0px solid black;
+        margin-top: 20px;
+        margin-left: -20px;
+    }
+    .agp{
+        color: red;
+        font-weight: bolder;
+        font-size: 25px;
+        padding: 0;
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+
+    .popc{
+        align-items: center;
+        padding: 0px 0px 50px 0px;
+        margin: 0 0 0 0;
+    }
+    
+    .boxd{
+        margin: 20px 30px 10px 30px;
+        border-radius: 15px;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 416px) {
+    .popag{
+        background-color: #e9ecf0;
+        border-radius: 70px 70px 0 0;
+        padding: 0px 20px 50px 20px;
+        margin-top: -110px;
+    }
+    
+    .agh{
+        color: black;
+        font-weight: bolder;
+        font-size: 45px;
+        padding: 0px 0px 0px 10px;
+        border-left: 0px solid black;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    
+    .popc{
+        align-items: center;
+        padding: 0px 0px 50px 0px;
+        margin: 0 0 0 0;
+    }
+    
+    .boxd{
+        margin: 20px 50px 10px 50px;
+        border-radius: 15px;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .popag{
+        background-color: #e9ecf0;
+        border-radius: 70px 70px 0 0;
+        padding: 0px 0px 50px 20px;
+        margin-top: -110px;
+    }
+    
+    .agh{
+        color: black;
+        font-weight: bolder;
+        font-size: 45px;
+        padding: 0px 50px 10px 10px;
+        border-left: 6px solid black;
+        margin-top: 70px;
+    }
+    
+    .popc{
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .icon{
+        width: 50px;
+        margin: 25px 25px 25px -50px;
+    }
+    
+    .boxd{
+        margin: 20px 70px 10px -20px;
+        border-radius: 15px;
+        background-color: white;
+    }
+    
+    .heading{
+        padding-top: 0px;
+        color: hsl(266, 62%, 42%);
+    }
+
+    .headt{
+        margin: 0px 40px 0 0;
+    }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 992px) {
+    .popag{
+        background-color: #e9ecf0;
+        border-radius: 70px 70px 0 0;
+        padding: 0px 0px 50px 20px;
+        margin-top: -110px;
+    }
+    
+    .agh{
+        color: black;
+        font-weight: bolder;
+        font-size: 45px;
+        padding: 0px 50px 10px 10px;
+        border-left: 6px solid black;
+        margin-top: 70px;
+    }
+    
+    .popc{
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .icon{
+        width: 50px;
+        margin: 25px 10px 25px -50px;
+    }
+    
+    .boxd{
+        margin: 20px 70px 10px -20px;
+        border-radius: 15px;
+        background-color: white;
+        padding: 0 0 0 -30px;
+    }
+    
+    .heading{
+        padding-top: 0px;
+        color: hsl(266, 62%, 42%);
+    }
+
+    .headt{
+        margin: 0px 0px 0 0;
+    }
+}
