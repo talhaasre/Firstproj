@@ -1,25 +1,24 @@
-import React from 'react';
-import './App.css';
-import OurServices from './components/OurServices/OurServices';
-import AtGlance from './components/AtGlance/AtGlance';
-import PopularCourses from './components/PopularCourses/PopularCourses';
-import SubscribeNews from './components/Subscribe/SubscribeNews';
-import Navbar from './components/Navbar/Navbar';
-import FooterNav from './components/FooterNav/FooterNav';
-import Copyright from './components/Copyright/Copyright';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import MetaDecorator from "./components/MetaDecorator/MetaDecorator";
+import "./App.css";
+import Routing from "./Routing";
 
 function App() {
   return (
     <>
-    <div className="App">
-    </div>
-    <Navbar />
-    <OurServices />
-    <PopularCourses />
-    <AtGlance />
-    <SubscribeNews />
-    <FooterNav />
-    <Copyright />
+      <MetaDecorator
+        // metaTitle="UpGrad Living"
+        metaTitle="Talha Asre | Frontend Developer & Mentor"
+        metaDesc="I develop and code pixel perfect sites & apps, and I love what I do."
+        canonicalLink={window.location}
+      />
+      <BrowserRouter>
+        {/* <ScrollToTop /> */}
+        <Routes>
+          <Route path="*" element={<Routing />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
