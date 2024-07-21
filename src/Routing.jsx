@@ -2,8 +2,9 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import { homeURL } from "./helpers/paths";
+import { ContactURL, homeURL } from "./helpers/paths";
 import Homepage from "./pages/Homepage/Homepage";
+import ContactUs from "./pages/ContactUs/ContactUs";
 
 const Routing = () => {
   return (
@@ -11,6 +12,7 @@ const Routing = () => {
       <Header />
       <Routes>
         <Route path={homeURL} element={<Homepage />} />
+        <Route path={ContactURL} element={<ContactUs />} />
       </Routes>
       <Footer />
     </>

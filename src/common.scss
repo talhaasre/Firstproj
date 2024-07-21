@@ -30,6 +30,7 @@ $color-33333366: #33333366;
 $color-1C1C1C66: #1c1c1c66;
 $color-333333: #333333;
 $color-EE2C3C: #ee2c3c;
+$color-194340: #194340;
 $container-2560: 2226px;
 $container-1920: 1620px;
 $container-1700: 1619px;
@@ -262,26 +263,27 @@ table {
   }
 }
 
+.my_container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 @media (min-width: 2561px) {
   body {
     font-size: 18px;
   }
   .my_container {
     max-width: $container-2560;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
   }
 }
+
 @media (max-width: 2560px) {
   body {
     font-size: 18px;
   }
   .my_container {
     max-width: $container-2560;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
   }
 }
 @media (max-width: 1920px) {
@@ -290,8 +292,6 @@ table {
   }
   .my_container {
     max-width: $container-1920;
-    margin: 0 auto;
-    padding: 0;
   }
 }
 
@@ -301,9 +301,6 @@ table {
   }
   .my_container {
     max-width: $container-1700;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
   }
 }
 @media (max-width: 1620px) {
@@ -312,9 +309,6 @@ table {
   }
   .my_container {
     max-width: $container-1620;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
   }
 }
 @media (max-width: 1536px) {
@@ -323,17 +317,11 @@ table {
   }
   .my_container {
     max-width: $container-1536;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
   }
 }
 @media (max-width: 1440px) {
   .my_container {
     max-width: $container-1440;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
   }
 }
 
@@ -343,55 +331,28 @@ table {
   }
   .my_container {
     max-width: $container-1366;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0;
   }
 }
 
 @media (max-width: 1280px) {
-  body {
-    font-size: 10px;
-  }
   .my_container {
     max-width: $container-1280;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
   }
 }
 
 @media (max-width: 1194px) {
-  body {
-    font-size: 10px;
-  }
   .my_container {
     max-width: $container-1194;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
   }
 }
 @media (max-width: 1080px) {
-  body {
-    font-size: 10px;
-  }
   .my_container {
     max-width: $container-1080;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
   }
 }
 @media (max-width: 992px) {
-  body {
-    font-size: 10px;
-  }
   .my_container {
     max-width: $container-992;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
   }
   .firstsec {
     padding-top: 6.8em;
@@ -412,9 +373,6 @@ table {
 @media (max-width: 600px) {
   .my_container {
     max-width: 100%;
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 15px;
   }
   .form_input {
     font-size: 1.6em;
