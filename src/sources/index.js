@@ -12,9 +12,16 @@ export { default as footermail } from "./images/general/footer-mail-icon.svg";
 export { default as footercall } from "./images/general/footer-phone-call-icon.svg";
 export { default as herodevices } from "./images/homepage/hero-devices.svg";
 
+// HOMEPAGE IMAGES
+export { default as heroBg } from "./images/homepage/hero-bg.png";
+
 export let images = {
   logo: {
     image: require("./images/general/talha-logo.png"),
     alt: "Talha Asre Logo",
+  },
+  heroBg: {
+    image: require("./images/homepage/hero-bg.png"),
+    alt: "laptop typing background",
   },
 };

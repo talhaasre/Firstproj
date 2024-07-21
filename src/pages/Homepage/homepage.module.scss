@@ -1,5 +1,44 @@
 @import "../../common.scss";
 
+.hero_banner {
+  position: relative;
+  height: 100vh;
+  .hero_bg {
+    width: 100%;
+    max-width: fit-content;
+    height: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 1.063em;
+    margin: auto 0;
+  }
+  .hero_container,
+  .form_row {
+    height: 100%;
+  }
+  .form_col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_box {
+    padding: 2.5em 2.813em 3.125em;
+    background: $color-194340;
+    color: $color-ffffff;
+    border-radius: 8px;
+    .form_fileds_wrapper {
+      .title {
+        @include textStyles(2.313em, 1.568em, -1.17px);
+        font-weight: 600;
+      }
+    }
+  }
+}
+
 .home_sec1 {
   padding: 10.688em 0;
   display: flex;
