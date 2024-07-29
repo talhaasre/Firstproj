@@ -1,6 +1,7 @@
 import React from "react";
 import { heroBg, herodevices, microsoftword, adobephotoshop, applepages, microsoftpowerpoint, microsoftexcel, Vector1, Vector, TickIcon, Avatar, ZeroErroricon, CorrectFormaticon, CorrectMarginLineSpaceicon, EasyToEditOutputFileicon, GoodForPrintingicon, PickYourFormatOfChoiceicon, FooterWave, logocolor, amex, mastercard, paypal, visa, google, twitter, instagram, linkedin, hover, GuaranteeIcon, GuaranteeIconInside } from "../../sources";
 import styles from "./homepage.module.scss";
+// import { CustomAccordion } from "./Accordion/Accordion/CustomAccordion";
 
 const Homepage = () => {
   return (
@@ -285,7 +286,8 @@ const Homepage = () => {
           </div>
 
           <div className={styles.faq_div_2}>
-            
+          <CustomAccordion />
+
           </div>
         </div>
 
