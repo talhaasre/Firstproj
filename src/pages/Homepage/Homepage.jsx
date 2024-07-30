@@ -1,5 +1,5 @@
 import React from "react";
-import { heroBg, herodevices, microsoftword, adobephotoshop, applepages, microsoftpowerpoint, microsoftexcel, Vector1, Vector, TickIcon, Avatar, ZeroErroricon, CorrectFormaticon, CorrectMarginLineSpaceicon, EasyToEditOutputFileicon, GoodForPrintingicon, PickYourFormatOfChoiceicon, FooterWave, logocolor, amex, mastercard, paypal, visa, google, twitter, instagram, linkedin, hover, GuaranteeIcon, GuaranteeIconInside } from "../../sources";
+import { heroBg, herodevices, microsoftword, adobephotoshop, applepages, microsoftpowerpoint, microsoftexcel, Vector1, Vector, TickIcon, Avatar, ZeroErroricon, CorrectFormaticon, CorrectMarginLineSpaceicon, EasyToEditOutputFileicon, GoodForPrintingicon, PickYourFormatOfChoiceicon, FooterWave, logocolor, amex, mastercard, paypal, visa, google, twitter, instagram, linkedin, hover, GuaranteeIcon, GuaranteeIconInside, buttonicon } from "../../sources";
 import styles from "./homepage.module.scss";
 // import { CustomAccordion } from "./Accordion/Accordion/CustomAccordion";
 
@@ -273,6 +273,214 @@ const Homepage = () => {
       <hr />
 
       <hr />
+      <section className={styles.sps}>
+        <h1 className={styles.sps_h1}>Services & Pricing</h1>
+
+        <div className={styles.sps_scr}>
+          
+          <div className={styles.sps_scr_top_boxes}>
+
+            <div className={styles.sps_scr_boxes}>
+              <div className={styles.sps_scr_box}>
+                <h3 className={styles.sps_scr_box_h3}>Standard Novel</h3>
+                <h3 className={styles.sps_scr_box_h3_1}>$49.<sup>00</sup></h3>
+
+                <div className={styles.sps_scr_box_div}>
+                  <ul className={styles.sps_scr_box_div_ul}>
+                    <li className={styles.sps_scr_box_div_ul_li}>under 400 pages</li>
+                    <li className={styles.sps_scr_box_div_ul_li}>5 images max</li>
+                    <li className={styles.sps_scr_box_div_ul_li}>no complex formatting</li>
+                  </ul>
+                </div>
+                
+                <div className={styles.sps_scr_box_div_1}>
+                  <button className={styles.sps_scr_box_div_1_button}>Get In Touch</button>
+                  <img
+                    src={buttonicon}
+                    alt="Radio Button"
+                    className={styles.buttonicon}
+                  />
+                </div>
+
+              </div>
+
+              <div className={styles.sps_scr_box}>
+                <h3 className={styles.sps_scr_box_h3}>Standard Novel</h3>
+                <h3 className={styles.sps_scr_box_h3_1}>$49.<sup>00</sup></h3>
+
+                <div className={styles.sps_scr_box_div}>
+                  <ul className={styles.sps_scr_box_div_ul}>
+                    <li className={styles.sps_scr_box_div_ul_li}>under 400 pages</li>
+                    <li className={styles.sps_scr_box_div_ul_li}>5 images max</li>
+                    <li className={styles.sps_scr_box_div_ul_li}>no complex formatting</li>
+                  </ul>
+                </div>
+                
+                <div className={styles.sps_scr_box_div_1}>
+                  <button className={styles.sps_scr_box_div_1_button}>Get In Touch</button>
+                  <img
+                    src={buttonicon}
+                    alt="Radio Button"
+                    className={styles.buttonicon}
+                  />
+                </div>
+
+              </div>
+
+              <div className={styles.sps_scr_box}>
+                <h3 className={styles.sps_scr_box_h3}>Standard Novel</h3>
+                <h3 className={styles.sps_scr_box_h3_1}>$49.<sup>00</sup></h3>
+
+                <div className={styles.sps_scr_box_div}>
+                  <ul className={styles.sps_scr_box_div_ul}>
+                    <li className={styles.sps_scr_box_div_ul_li}>under 400 pages</li>
+                    <li className={styles.sps_scr_box_div_ul_li}>5 images max</li>
+                    <li className={styles.sps_scr_box_div_ul_li}>no complex formatting</li>
+                  </ul>
+                </div>
+                
+                <div className={styles.sps_scr_box_div_1}>
+                  <button className={styles.sps_scr_box_div_1_button}>Get In Touch</button>
+                  <img
+                    src={buttonicon}
+                    alt="Radio Button"
+                    className={styles.buttonicon}
+                  />
+                </div>
+
+              </div>
+
+
+            </div>
+
+
+            <div className={styles.sps_scr_boxes}>
+              <div className={styles.sps_scr_box}>
+                <h3 className={styles.sps_scr_box_h3}>Standard Novel</h3>
+                <h3 className={styles.sps_scr_box_h3_1}>$49.<sup>00</sup></h3>
+
+                <div className={styles.sps_scr_box_div}>
+                  <ul className={styles.sps_scr_box_div_ul}>
+                    <li className={styles.sps_scr_box_div_ul_li}>under 400 pages</li>
+                    <li className={styles.sps_scr_box_div_ul_li}>5 images max</li>
+                    <li className={styles.sps_scr_box_div_ul_li}>no complex formatting</li>
+                  </ul>
+                </div>
+                
+                <div className={styles.sps_scr_box_div_1}>
+                  <button className={styles.sps_scr_box_div_1_button}>Get In Touch</button>
+                  <img
+                    src={buttonicon}
+                    alt="Radio Button"
+                    className={styles.buttonicon}
+                  />
+                </div>
+
+              </div>
+
+              <div className={styles.sps_scr_box}>
+                <h3 className={styles.sps_scr_box_h3}>Standard Novel</h3>
+                <h3 className={styles.sps_scr_box_h3_1}>$49.<sup>00</sup></h3>
+
+                <div className={styles.sps_scr_box_div}>
+                  <ul className={styles.sps_scr_box_div_ul}>
+                    <li className={styles.sps_scr_box_div_ul_li}>under 400 pages</li>
+                    <li className={styles.sps_scr_box_div_ul_li}>5 images max</li>
+                    <li className={styles.sps_scr_box_div_ul_li}>no complex formatting</li>
+                  </ul>
+                </div>
+                
+                <div className={styles.sps_scr_box_div_1}>
+                  <button className={styles.sps_scr_box_div_1_button}>Get In Touch</button>
+                  <img
+                    src={buttonicon}
+                    alt="Radio Button"
+                    className={styles.buttonicon}
+                  />
+                </div>
+
+              </div>
+
+              <div className={styles.sps_scr_box}>
+                <h3 className={styles.sps_scr_box_h3}>Standard Novel</h3>
+                <h3 className={styles.sps_scr_box_h3_1}>$49.<sup>00</sup></h3>
+
+                <div className={styles.sps_scr_box_div}>
+                  <ul className={styles.sps_scr_box_div_ul}>
+                    <li className={styles.sps_scr_box_div_ul_li}>under 400 pages</li>
+                    <li className={styles.sps_scr_box_div_ul_li}>5 images max</li>
+                    <li className={styles.sps_scr_box_div_ul_li}>no complex formatting</li>
+                  </ul>
+                </div>
+                
+                <div className={styles.sps_scr_box_div_1}>
+                  <button className={styles.sps_scr_box_div_1_button}>Get In Touch</button>
+                  <img
+                    src={buttonicon}
+                    alt="Radio Button"
+                    className={styles.buttonicon}
+                  />
+                </div>
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+          
+
+          
+        </div>
+
+        <div className={styles.sps_group}>
+          <div className={styles.sps_group_box}>
+            <h4 className={styles.sps_group_box_h4}>Revisions</h4>
+            <p className={styles.sps_group_box_p}>Unlimited free revisions for two weeks after delivery. After this date additional revisions request costa flat $19 for any reasonable amount of revisions.</p>
+          </div>
+
+          <div className={styles.sps_group_box}>
+            <h4 className={styles.sps_group_box_h4}>Output Formats</h4>
+            <p className={styles.sps_group_box_p}>We provide both Mobi and Epub versions ready forpublishing at Amazon, Nook, Smashword, Apple, etc.</p>
+          </div>
+
+          <div className={styles.sps_group_box}>
+            <h4 className={styles.sps_group_box_h4}>We can also try using other formats</h4>
+            <div className={styles.sps_group_box_div}>
+              <div className={styles.sps_group_box_div_div}>
+                <img
+                  src={TickIcon}
+                  alt="Radio Button"
+                  className={styles.tickicon}
+                />
+                <p className={styles.sps_group_box_div_div_p}>48 Hour Delivery</p>
+              </div>
+
+              <div className={styles.sps_group_box_div_div}>
+                <img
+                  src={TickIcon}
+                  alt="Radio Button"
+                  className={styles.tickicon}
+                />
+                <p className={styles.sps_group_box_div_div_p}>Unlimited Revisions</p>
+              </div>
+
+              <div className={styles.sps_group_box_div_div}>
+                <img
+                  src={TickIcon}
+                  alt="Radio Button"
+                  className={styles.tickicon}
+                />
+                <p className={styles.sps_group_box_div_div_p}>Get Accepted To Amazon. Fast.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr />
       <section className={styles.faq}>
         <h1 className={styles.faq_h1}>Frequently Asked Questions</h1>
 
@@ -286,7 +494,7 @@ const Homepage = () => {
           </div>
 
           <div className={styles.faq_div_2}>
-          <CustomAccordion />
+          {/* <CustomAccordion /> */}
 
           </div>
         </div>
@@ -427,14 +635,14 @@ const Homepage = () => {
 
             <div className={styles.guarantee_div_col_div}>
 
-              <h2 className={styles.guarantee_div_col_div_h2}>Starting at $49.00</h2>
+              <h2 className={styles.guarantee_div_col_div_h2}>Starting at $49.<sup>00</sup></h2>
 
               <div className={styles.guarantee_div_col_div_div}>
                 <button className={styles.guarantee_div_col_div_div_button}>Get In Touch</button>
                 <img
-                  src={TickIcon}
+                  src={buttonicon}
                   alt="Radio Button"
-                  className={styles.tickicon}
+                  className={styles.buttonicon}
                 />
               </div>
             </div>

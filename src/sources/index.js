@@ -38,6 +38,7 @@ export { default as twitter } from "./images/homepage/twitter.png";
 export { default as google } from "./images/homepage/google.png";
 export { default as GuaranteeIcon } from "./images/homepage/Guarantee Icon.png";
 export { default as GuaranteeIconInside } from "./images/homepage/GuaranteeIconInside.png";
+export { default as buttonicon } from "./images/homepage/button_Icon.png";
 
 // HOMEPAGE IMAGES
 export { default as heroBg } from "./images/homepage/hero-bg.png";
