@@ -176,98 +176,98 @@ const Homepage = () => {
           </div>
         </div>
       </section>
-      <hr />
 
-      <hr />
+
+
       <section className={styles.pros_sec}>
         <h2 className={styles.pros_h}>We have converted 1000s of PDFs since 2013</h2>
         <div className={styles.pros_items}>
           <div className={styles.pros_items_row1}>
 
-              <div className={styles.flex}>
-                <img
-                  src={ZeroErroricon}
-                  alt="Radio Button"
-                  className={styles.avatarimg}
-                />
-                <div >
-                  <h6 className={styles.pros_h6}>Zero Error</h6>
-                  <p>Professional PDF formatting service, you are not only paying for the technical expertise and skill</p>
-                </div>
+            <div className={styles.pros_items_row1_div}>
+              <img
+                src={ZeroErroricon}
+                alt="Radio Button"
+                className={styles.avatarimg1}
+              />
+              <div >
+                <h6 className={styles.pros_h6}>Zero Error</h6>
+                <p className={styles.pros_items_row1_p}>Professional PDF formatting service, you are not only paying for the technical expertise and skill</p>
               </div>
-              <div className={styles.flex}>
-                <img
-                  src={CorrectFormaticon}
-                  alt="Radio Button"
-                  className={styles.avatarimg}
-                />
-                <div >
-                  <h6 className={styles.pros_h6}>Correct Format</h6>
-                  <p>Professional PDF formatting service, you are not only paying for the technical expertise and skill</p>
-                </div>
+            </div>
+            <div className={styles.pros_items_row1_div}>
+              <img
+                src={CorrectFormaticon}
+                alt="Radio Button"
+                className={styles.avatarimg1}
+              />
+              <div >
+                <h6 className={styles.pros_h6}>Correct Format</h6>
+                <p className={styles.pros_items_row1_p}>Professional PDF formatting service, you are not only paying for the technical expertise and skill</p>
               </div>
-              <div className={styles.flex}>
-                <img
-                  src={CorrectMarginLineSpaceicon}
-                  alt="Radio Button"
-                  className={styles.avatarimg}
-                />
-                <div >
-                  <h6 className={styles.pros_h6}>Correct Margin & Line Space</h6>
-                  <p>Professional PDF formatting service, you are not only paying for the technical expertise and skill</p>
-                </div>
+            </div>
+            <div className={styles.pros_items_row1_div}>
+              <img
+                src={CorrectMarginLineSpaceicon}
+                alt="Radio Button"
+                className={styles.avatarimg1}
+              />
+              <div >
+                <h6 className={styles.pros_h6}>Correct Margin & Line Space</h6>
+                <p className={styles.pros_items_row1_p}>Professional PDF formatting service, you are not only paying for the technical expertise and skill</p>
               </div>
+            </div>
 
 
           </div>
 
           <br /><br /><br />
-          
+
           <div className={styles.pros_items_row2}>
 
-              <div className={styles.flex}>
-                <img
-                  src={EasyToEditOutputFileicon}
-                  alt="Radio Button"
-                  className={styles.avatarimg}
-                />
-                <div >
-                  <h6 className={styles.pros_h6}>Easy To Edit Output File</h6>
-                  <p>Professional PDF formatting service, you are not only paying for the technical expertise and skill</p>
-                </div>
+            <div className={styles.pros_items_row1_div}>
+              <img
+                src={EasyToEditOutputFileicon}
+                alt="Radio Button"
+                className={styles.avatarimg1}
+              />
+              <div >
+                <h6 className={styles.pros_h6}>Easy To Edit Output File</h6>
+                <p className={styles.pros_items_row1_p}>Professional PDF formatting service, you are not only paying for the technical expertise and skill</p>
               </div>
-              <div className={styles.flex}>
-                <img
-                  src={GoodForPrintingicon}
-                  alt="Radio Button"
-                  className={styles.avatarimg}
-                />
-                <div >
-                  <h6 className={styles.pros_h6}>Good For Printing</h6>
-                  <p>Professional PDF formatting service, you are not only paying for the technical expertise and skill</p>
-                </div>
+            </div>
+            <div className={styles.pros_items_row1_div}>
+              <img
+                src={GoodForPrintingicon}
+                alt="Radio Button"
+                className={styles.avatarimg1}
+              />
+              <div >
+                <h6 className={styles.pros_h6}>Good For Printing</h6>
+                <p className={styles.pros_items_row1_p}>Professional PDF formatting service, you are not only paying for the technical expertise and skill</p>
               </div>
-              <div className={styles.flex}>
-                <img
-                  src={PickYourFormatOfChoiceicon}
-                  alt="Radio Button"
-                  className={styles.avatarimg}
-                />
-                <div >
-                  <h6 className={styles.pros_h6}>Pick Your Format Of Choice</h6>
-                  <p>Professional PDF formatting service, you are not only paying for the technical expertise and skill</p>
-                </div>
+            </div>
+            <div className={styles.pros_items_row1_div}>
+              <img
+                src={PickYourFormatOfChoiceicon}
+                alt="Radio Button"
+                className={styles.avatarimg1}
+              />
+              <div >
+                <h6 className={styles.pros_h6}>Pick Your Format Of Choice</h6>
+                <p className={styles.pros_items_row1_p}>Professional PDF formatting service, you are not only paying for the technical expertise and skill</p>
               </div>
+            </div>
 
 
           </div>
 
-          <div className={styles.pros_p}>
-            <p>When you hire a professional ebook formatting service, you are not only paying for the technical expertise and skill to format your book correctly; you are also paying for the assurance that your book will look great no matter what device it is being viewed on. You want to make sure that someone takes the time to pay attention to even the smallest details in order to make sure that your book looks perfect on all devices..</p>
-            <br />
-            <p>Professional eBook formatting services are an invaluable tool when it comes to getting your book ready for publication. Whether you have written a novel, an academic paper, or an eBook, there are different types of formats available depending on the type of project you are working on.</p>
-          </div>
+        </div>
 
+        <div className={styles.pros_p}>
+          <p>When you hire a professional ebook formatting service, you are not only paying for the technical expertise and skill to format your book correctly; you are also paying for the assurance that your book will look great no matter what device it is being viewed on. You want to make sure that someone takes the time to pay attention to even the smallest details in order to make sure that your book looks perfect on all devices..</p>
+          <br />
+          <p>Professional eBook formatting services are an invaluable tool when it comes to getting your book ready for publication. Whether you have written a novel, an academic paper, or an eBook, there are different types of formats available depending on the type of project you are working on.</p>
         </div>
       </section>
       <hr />
@@ -277,7 +277,7 @@ const Homepage = () => {
         <h1 className={styles.sps_h1}>Services & Pricing</h1>
 
         <div className={styles.sps_scr}>
-          
+
           <div className={styles.sps_scr_top_boxes}>
 
             <div className={styles.sps_scr_boxes}>
@@ -292,7 +292,7 @@ const Homepage = () => {
                     <li className={styles.sps_scr_box_div_ul_li}>no complex formatting</li>
                   </ul>
                 </div>
-                
+
                 <div className={styles.sps_scr_box_div_1}>
                   <button className={styles.sps_scr_box_div_1_button}>Get In Touch</button>
                   <img
@@ -315,7 +315,7 @@ const Homepage = () => {
                     <li className={styles.sps_scr_box_div_ul_li}>no complex formatting</li>
                   </ul>
                 </div>
-                
+
                 <div className={styles.sps_scr_box_div_1}>
                   <button className={styles.sps_scr_box_div_1_button}>Get In Touch</button>
                   <img
@@ -338,7 +338,7 @@ const Homepage = () => {
                     <li className={styles.sps_scr_box_div_ul_li}>no complex formatting</li>
                   </ul>
                 </div>
-                
+
                 <div className={styles.sps_scr_box_div_1}>
                   <button className={styles.sps_scr_box_div_1_button}>Get In Touch</button>
                   <img
@@ -366,7 +366,7 @@ const Homepage = () => {
                     <li className={styles.sps_scr_box_div_ul_li}>no complex formatting</li>
                   </ul>
                 </div>
-                
+
                 <div className={styles.sps_scr_box_div_1}>
                   <button className={styles.sps_scr_box_div_1_button}>Get In Touch</button>
                   <img
@@ -389,7 +389,7 @@ const Homepage = () => {
                     <li className={styles.sps_scr_box_div_ul_li}>no complex formatting</li>
                   </ul>
                 </div>
-                
+
                 <div className={styles.sps_scr_box_div_1}>
                   <button className={styles.sps_scr_box_div_1_button}>Get In Touch</button>
                   <img
@@ -412,7 +412,7 @@ const Homepage = () => {
                     <li className={styles.sps_scr_box_div_ul_li}>no complex formatting</li>
                   </ul>
                 </div>
-                
+
                 <div className={styles.sps_scr_box_div_1}>
                   <button className={styles.sps_scr_box_div_1_button}>Get In Touch</button>
                   <img
@@ -429,9 +429,9 @@ const Homepage = () => {
 
 
           </div>
-          
 
-          
+
+
         </div>
 
         <div className={styles.sps_group}>
@@ -489,12 +489,12 @@ const Homepage = () => {
             <h2 className={styles.faq_div_1_h2}>Still Have Some Questions?</h2>
             <p className={styles.faq_div_1_p}>Email us! You will be pleasantly surprised by how fast we reply and how easy it is for you to self-published on all platforms. You can also use the blue box on the bottom right of your screen to reach us.</p>
             {/* <div className={styles.faq_div_1_div}> */}
-              <button className={styles.faq_div_1_div_button}>Customer Support</button>
+            <button className={styles.faq_div_1_div_button}>Customer Support</button>
             {/* </div> */}
           </div>
 
           <div className={styles.faq_div_2}>
-          {/* <CustomAccordion /> */}
+            {/* <CustomAccordion /> */}
 
           </div>
         </div>
@@ -557,7 +557,7 @@ const Homepage = () => {
             </div>
             <div className={styles.testimonials_div_box}>
               <p className={styles.testimonials_div_box_star}>*****</p>
-              <img src="https://tse1.mm.bing.net/th?id=OIP.AingTkaDHDydZb2QwZVeLAHaBu&pid=Api&P=0&h=220" alt="" width="92px" height="9px"/>
+              <img src="https://tse1.mm.bing.net/th?id=OIP.AingTkaDHDydZb2QwZVeLAHaBu&pid=Api&P=0&h=220" alt="" width="92px" height="9px" />
               <h5 className={styles.testimonials_div_box_h}>Modern look & trending design</h5>
               <p className={styles.testimonials_div_box_p}>Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.</p>
 
@@ -648,7 +648,7 @@ const Homepage = () => {
             </div>
 
           </div>
-          
+
           <div className={styles.guarantee_div_images}>
             <img
               src={GuaranteeIcon}
@@ -672,11 +672,11 @@ const Homepage = () => {
       <hr />
       <section className={styles.footer}>
         <div className={styles.FooterWave_div}>
-            <img
-              src={FooterWave}
-              alt="hero devices"
-              className={styles.FooterWave_img}
-            />
+          <img
+            src={FooterWave}
+            alt="hero devices"
+            className={styles.FooterWave_img}
+          />
         </div>
         <div className={styles.footerdiv_top}>
 
@@ -711,7 +711,7 @@ const Homepage = () => {
                 <img
                   src={visa}
                   alt="Radio Button"
-                  // className={styles.avatarimg}
+                // className={styles.avatarimg}
                 />
 
               </div>
@@ -735,7 +735,7 @@ const Homepage = () => {
               <h6>Let's Keep In Touch</h6>
 
               <p className={styles.footerdiv3_p}>3419 Virginia Beach Blvd, #301
-              Virginia Beach, VA 23452</p>
+                Virginia Beach, VA 23452</p>
 
               <div className={styles.footerdiv3_div}>
 
@@ -766,7 +766,7 @@ const Homepage = () => {
                 <img
                   src={hover}
                   alt="Radio Button"
-                  // className={styles.avatarimg}
+                // className={styles.avatarimg}
                 />
 
               </div>
