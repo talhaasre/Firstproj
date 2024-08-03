@@ -104,10 +104,12 @@
 
 .display {
   display: flex;
+  padding-bottom: 10em;
+  padding-left: 0;
   .displayCol {
     max-width: 10em;
     max-height: 2.625em;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 }
 
@@ -163,8 +165,11 @@
 // }
 
 .tickicon {
-  width: 1.5em;
-  height: 1.5em;
+  width: 2em;
+  height: 2em;
+  object-fit: contain;
+  padding-right: 0.5em;
+
 }
 
 .flex {
@@ -172,8 +177,10 @@
 }
 
 .avatarimg {
-  width: 2.5em;
-  height: 2.5em;
+  width: 4em;
+  height: 4em;
+  padding-right: 1em;
+  object-fit: contain;
 }
 
 .avatarimg1 {
@@ -184,8 +191,9 @@
 }
 
 .HeroTestimonial {
-  background-color: #f1f4f8;
-  width: 18.19em;
+  background-color: #F1F4F8;
+  max-width: 26.3em;
+  // padding-top: 10em;
   height: auto;
 }
 
@@ -238,8 +246,17 @@
 // }
 @media (max-width: 800px) {
   .pros_sec {
+    .pros_items_row1 {
+      display: flex;
+      flex-direction: column;
+    }
+    .pros_items_row2 {
+      display: flex;
+      flex-direction: column;
+    }
     .pros_items_row1_div{
       padding-right: 2em;
+      padding-top: 2em;
       .avatarimg1{
         padding-right: 1em;
       }
@@ -265,22 +282,22 @@
   display: flex;
 }
 
-@media (max-width: 53.625em) {
-  .pros_p {
-    font-weight: 400;
-  }
-}
+// @media (max-width: 53.625em) {
+//   .pros_p {
+//     font-weight: 400;
+//   }
+// }
 
 .testimonials {
   background-color: #f4f4ff;
   padding: 0%;
   margin: 0%;
   .testimonials_h {
-    font-size: 2em;
+    font-size: 3.6em;
     font-weight: 700;
     text-align: center;
     width: 100%;
-    padding-top: 4em;
+    padding-top: 1.7em;
   }
   .testimonials_div {
     padding: 2.7em 7.375em 15.3125em;
@@ -290,22 +307,29 @@
 
       .testimonials_div_box {
         background-color: #ffffff;
-        padding-right: 2em;
-        max-width: 20.5em;
+        // padding-right: 2em;
+        max-width: 37.7em;
+        gap: 1em;
       }
     }
   }
 }
 
 .testimonials_div_box_h {
-  font-size: 0.875em;
+  font-size: 1.4em;
   font-weight: 700;
   padding-bottom: 1em;
 }
 
-@media (max-width: 23.625em) {
+@media (max-width: 600px) {
+  .testimonials_div_boxes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
   .testimonials_div_box {
     padding-right: 2em;
+    padding-bottom: 1em;
   }
 }
 
@@ -315,6 +339,7 @@
 
 .testimonials_div_box_p {
   padding-bottom: 2em;
+  font-size: 1.6em;
 }
 
 .FooterWave_img {
@@ -424,18 +449,18 @@
     }
     .footerdiv_top{
       .footerdiv{
-        padding: 1.5625em 10.875em 10.6875em 0em;
+        // padding: 1.5625em 10.875em 10.6875em 0em;
         .footerdiv1 {
-          padding-left: 2em;
+          // padding-left: 2em;
         }
         .footerdiv2 {
-          padding-left: 3em;
+          // padding-left: 3em;
         }
         .footerdiv3{
-          padding-left: 3em;
+          // padding-left: 3em;
         }
         .footerdiv4{
-          padding-left: 3em;
+          // padding-left: 3em;
         }
       }
 
@@ -452,10 +477,11 @@
     }
     .footerdiv_top{
       .footerdiv{
-        padding: 1.5625em 1em 10.6875em 0em;
-        display: block;
+        // padding: 1.5625em 1em 10.6875em 0em;
+        display: flex;
+        flex-direction: column;
         .footerdiv1 {
-          padding-left: 1.5em;
+          // padding-left: 1.5em;
         }
       }
 
@@ -662,16 +688,16 @@
 
 .sps_scr_box_h3 {
   color: #2f6959;
-  font-size: 1.5em;
+  font-size: 2.4em;
   font-weight: 700;
-  padding: 2em 2em 1.25em;
+  padding: 1.4584em 1.4584em 0.833em;
 }
 
 .sps_scr_box_h3_1 {
   color: #2f6959;
-  font-size: 1.5em;
+  font-size: 3em;
   font-weight: 700;
-  padding: 0em 2em 1.25em;
+  padding: 0em 1.17em 0.67em;
 }
 
 .sps_scr_box_div {
@@ -679,6 +705,7 @@
 }
 
 .sps_scr_box_div_ul_li {
+  font-size: 1.5em;
   list-style-type: circle;
   padding-bottom: 0.5em;
   // padding: 0em 2em 1.25em;
@@ -688,11 +715,11 @@
   display: flex;
   background-color: #2f6959;
   width: 13.3125em;
-  // align-items: center;
-  // justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: center;
+  justify-items: center;
   padding: 0em 2em 2em;
   // padding-left: 1.75em;
-  // justify-content: s;
 }
 
 .sps_scr_box_div_1_button {
@@ -752,4 +779,16 @@
   font-weight: 500;
   color: #183b56;
   line-height: 1.25em;
+}
+
+@media (max-width: 600px) {
+  .sps {
+    .sps_scr_boxes{
+      display: flex;
+      flex-direction: column;
+      .sps_scr_box{
+        padding-bottom: 0.5em;
+      }
+    }
+  }
 }

@@ -25,36 +25,60 @@ const Homepage = () => {
                 <h4><span className={styles.title_span}>____</span></h4>
                 <br />
 
+
+                <div className={`my_container ${styles.display}`}>
+                  <div className={`${styles.flex} ${styles.displayCol}`}>
+                    <img
+                      src={TickIcon}
+                      alt="Radio Button"
+                      className={styles.tickicon}
+                    />
+
+                    <h5 className={styles.title_hs_1}>48 Hour Delivery</h5>
+                  </div>
+                  <div className={`${styles.flex} ${styles.displayCol}`}>
+                    <img
+                      src={TickIcon}
+                      alt="Radio Button"
+                      className={styles.tickicon}
+                    />
+
+                    <h5 className={styles.title_hs_1}>Unlimited Revisions</h5>
+                  </div>
+                  <div className={`${styles.flex} ${styles.displayCol}`}>
+                    <img
+                      src={TickIcon}
+                      alt="Radio Button"
+                      className={styles.tickicon}
+                    />
+
+                    <h5 className={styles.title_hs_1}>Get Accepted To Amazon. Fast.</h5>
+                  </div>
+                </div>
+                <article className={styles.HeroTestimonial}>
+                  <p className={styles.p}>Thanks so much. What a great job you did! I will recommend you to my friends</p>
+                  <div className={styles.flex}>
+                    <img
+                      src={Avatar}
+                      alt="Radio Button"
+                      className={styles.avatarimg}
+                    />
+                    <div >
+                      <h6>Bryan Arnoldy</h6>
+                      <div className={styles.flex}>
+                        <img
+                          src={TickIcon}
+                          alt="Radio Button"
+                          className={styles.tickicon}
+                        />
+                        <p>Verified customer</p>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+
               </div>
-              <div className={`my_container ${styles.display}`}>
-                <div className={styles.displayCol}>
-                  <img
-                    src={TickIcon}
-                    alt="Radio Button"
-                    className={styles.tickicon}
-                  />
 
-                  <h5 className={styles.title_hs_1}>48 Hour Delivery</h5>
-                </div>
-                <div className={`${styles.flex} ${styles.displayCol}`}>
-                  <img
-                    src={TickIcon}
-                    alt="Radio Button"
-                    className={styles.tickicon}
-                  />
-
-                  <h5 className={styles.title_hs_1}>Unlimited Revisions</h5>
-                </div>
-                <div className={styles.displayCol}>
-                  <img
-                    src={TickIcon}
-                    alt="Radio Button"
-                    className={styles.tickicon}
-                  />
-
-                  <h5 className={styles.title_hs_1}>Get Accepted To Amazon. Fast.</h5>
-                </div>
-              </div>
             </div>
             <div className={`col-md-5 p-0 ${styles.form_col}`}>
               <div className={styles.form_box}>
@@ -107,27 +131,7 @@ const Homepage = () => {
                 </div>
               </div>
             </div>
-            <article className="HeroTestimonial">
-              <p className={styles.p}>Thanks so much. What a great job you did! I will recommend you to my friends</p>
-              <div className={styles.flex}>
-                <img
-                  src={Avatar}
-                  alt="Radio Button"
-                  className={styles.avatarimg}
-                />
-                <div >
-                  <h6>Bryan Arnoldy</h6>
-                  <div className={styles.flex}>
-                    <img
-                      src={TickIcon}
-                      alt="Radio Button"
-                      className={styles.tickicon}
-                    />
-                    <p>Verified customer</p>
-                  </div>
-                </div>
-              </div>
-            </article>
+            
           </div>
         </div>
       </section>
