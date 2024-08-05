@@ -150,7 +150,6 @@
   }
 }
 
-
 // @media (max-width: 90em) {
 //   .ss {
 //     // padding: 16.875em;
@@ -169,7 +168,6 @@
   height: 2em;
   object-fit: contain;
   padding-right: 0.5em;
-
 }
 
 .flex {
@@ -191,7 +189,7 @@
 }
 
 .HeroTestimonial {
-  background-color: #F1F4F8;
+  background-color: #f1f4f8;
   max-width: 26.3em;
   // padding-top: 10em;
   height: auto;
@@ -220,7 +218,7 @@
   .pros_h6 {
     font-size: 1.8em;
   }
-  .pros_items_row1_p{
+  .pros_items_row1_p {
     padding-top: 1.2em;
     font-size: 1.5em;
   }
@@ -234,7 +232,7 @@
   }
 }
 
-.pros_items_row1_div{
+.pros_items_row1_div {
   display: flex;
   padding-right: 4em;
 }
@@ -254,21 +252,20 @@
       display: flex;
       flex-direction: column;
     }
-    .pros_items_row1_div{
+    .pros_items_row1_div {
       padding-right: 2em;
       padding-top: 2em;
-      .avatarimg1{
+      .avatarimg1 {
         padding-right: 1em;
       }
-      
     }
     .pros_p {
       padding: 1.5em;
     }
-    .pros_h{
+    .pros_h {
       padding: 1em;
     }
-    .pros_items{
+    .pros_items {
       padding: 2em 1em;
     }
   }
@@ -308,8 +305,10 @@
       .testimonials_div_box {
         background-color: #ffffff;
         // padding-right: 2em;
-        max-width: 37.7em;
-        gap: 1em;
+        // max-width: 37.7em;
+        // gap: 1em;
+        margin-right: 2em;
+        padding: 1em;
       }
     }
   }
@@ -322,14 +321,21 @@
 }
 
 @media (max-width: 600px) {
-  .testimonials_div_boxes{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  .testimonials_div_box {
-    padding-right: 2em;
-    padding-bottom: 1em;
+  .testimonials {
+    .testimonials_div_boxes {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .testimonials_div_box {
+      padding-right: 2em;
+      padding-bottom: 1em;
+      max-width: 100%;
+      margin-bottom: 2em;
+    }
+    .testimonials_div {
+      padding: 2.7em 3em 5em;
+    }
   }
 }
 
@@ -384,7 +390,8 @@
 .logo {
   width: 100%;
   // margin-left: 1.5em;
-  max-width: 16.2em;
+  // max-width: 16.2em;
+  width: 16.2em;
   object-fit: contain;
 }
 
@@ -403,7 +410,7 @@
 .footerdiv2_2_p {
   opacity: 60%;
   padding-bottom: 1.25em;
-  font-size: 14px;
+  font-size: 1.4em;
 }
 
 .footerdiv3 {
@@ -447,8 +454,8 @@
         object-fit: contain;
       }
     }
-    .footerdiv_top{
-      .footerdiv{
+    .footerdiv_top {
+      .footerdiv {
         // padding: 1.5625em 10.875em 10.6875em 0em;
         .footerdiv1 {
           // padding-left: 2em;
@@ -456,14 +463,13 @@
         .footerdiv2 {
           // padding-left: 3em;
         }
-        .footerdiv3{
+        .footerdiv3 {
           // padding-left: 3em;
         }
-        .footerdiv4{
+        .footerdiv4 {
           // padding-left: 3em;
         }
       }
-
     }
   }
 }
@@ -475,16 +481,60 @@
         object-fit: contain;
       }
     }
-    .footerdiv_top{
-      .footerdiv{
-        // padding: 1.5625em 1em 10.6875em 0em;
+    .footerdiv_top {
+      .footerdiv {
+        padding: 0em;
+        // padding: 1.5625em 16.875em 10.6875em 7.5em;
+        // justify-content: center;
         display: flex;
         flex-direction: column;
         .footerdiv1 {
-          // padding-left: 1.5em;
+          padding-left: 1.5em;
+          align-items: center;
+          .logo {
+            // width: 50em;
+          }
+          .footerdiv1_1 {
+            // justify-content: space-between;
+            width: auto;
+            .footerdiv1_1_img {
+              // height: 4em;
+            }
+          }
+        }
+        .footerdiv2 {
+          padding-top: 3em;
+          .footerdiv2_h6 {
+            font-size: 3em;
+          }
+          .footerdiv2_2_p {
+            font-size: 3em;
+          }
+        }
+        .footerdiv3 {
+          // font-size: 3em;
+          .footerdiv3_h6 {
+            font-size: 3em;
+            padding-top: 1em;
+          }
+          .footerdiv3_p {
+            font-size: 3em;
+            padding-top: 1em;
+          }
+        }
+        .footerdiv4{
+          .footerdiv4_h6{
+            font-size: 3em;
+            padding-top: 3em;
+          }
+          .footerdiv4_1_p{
+            font-size: 3em;
+          }
         }
       }
-
+      .footerdiv_p{
+        font-size: 3em;
+      }
     }
   }
 }
@@ -573,9 +623,9 @@
 }
 
 .faq_h1 {
-  font-size: 2em;
+  font-size: 3.6em;
   font-weight: 700;
-  padding-top: 3.875em;
+  padding-top: 2em;
   // padding-bottom: 2.5em;
   text-align: center;
 }
@@ -586,14 +636,14 @@
 }
 
 .faq_div_1_h2 {
-  font-size: 1.5em;
+  font-size: 2.4em;
   font-weight: 700;
   line-height: 2.5em;
-  padding-bottom: 1.25em;
+  padding-bottom: 0.84em;
 }
 
 .faq_div_1_p {
-  font-size: 1em;
+  font-size: 1.6em;
   font-weight: 400;
   line-height: 1.875em;
   max-width: 20.125em;
@@ -612,7 +662,7 @@
   text-decoration: color(srgb #194340);
   background-color: #a4eaca;
   padding: 1em 2.5em 1em;
-  font-size: 1.25em;
+  font-size: 2em;
   font-weight: 700;
   border-radius: 0.375em;
   border: hidden;
@@ -658,6 +708,10 @@
     overflow-x: hidden;
     .sps_scr {
       padding: auto;
+      padding: 2.5em 2em 2.5em;
+    }
+    .sps_group{
+      padding: 0em 2em 5em;
     }
   }
 }
@@ -672,18 +726,19 @@
 
 .sps_scr_boxes {
   display: flex;
-  padding-bottom: 2.5em;
+  padding-bottom: 4em;
 }
 
 .sps_scr_box {
-  padding-right: 2.5em;
+  // padding-right: 2.5em;
   background-color: #ffffff;
   width: 27.6875em;
-  padding-right: 2.5em;
+  // padding-right: 2.5em;
   justify-content: center;
   // align-items: center;
   border: #e5eaf4;
   border-radius: 1em;
+  margin-right: 4em;
 }
 
 .sps_scr_box_h3 {
@@ -736,28 +791,29 @@
 
 .sps_group {
   display: flex;
-  max-width: 70em;
-  padding: 0em 9.9375em 8.8125em;
+  // max-width: 70em;
+  padding: 0em 15.9em 14.1em;
 }
 
 .sps_group_box {
   background-color: #ffffff;
   border: #e5eaf4;
   border-radius: 1em;
-  max-width: 21.9375em;
+  // max-width: 30.1em;
+  margin-right: 4em;
   // padding: 0em 2.5em 0em 0em;
 }
 
 .sps_group_box_h4 {
   color: #2f6959;
-  font-size: 1.375em;
+  font-size: 2.2em;
   font-weight: 700;
   padding-top: 2em;
-  padding-left: 2em;
+  padding-left: 1.5em;
 }
 
 .sps_group_box_p {
-  font-size: 1em;
+  font-size: 1.6em;
   font-weight: 400;
   line-height: 2em;
   padding: 0.5em 2em 3.75em;
@@ -775,7 +831,7 @@
 }
 
 .sps_group_box_div_div_p {
-  font-size: 1em;
+  font-size: 1.6em;
   font-weight: 500;
   color: #183b56;
   line-height: 1.25em;
@@ -783,11 +839,21 @@
 
 @media (max-width: 600px) {
   .sps {
-    .sps_scr_boxes{
+    .sps_group{
+      flex-direction: column;
+      .sps_group_box{
+        width: 100%;
+        margin-bottom: 2em;
+      }
+    }
+    .sps_scr_boxes {
       display: flex;
       flex-direction: column;
-      .sps_scr_box{
+      padding-bottom: 0em;
+      .sps_scr_box {
         padding-bottom: 0.5em;
+        margin-bottom: 2em;
+        margin-right: 1em;
       }
     }
   }
