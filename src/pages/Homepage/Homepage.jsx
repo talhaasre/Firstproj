@@ -329,9 +329,8 @@ const Homepage = () => {
           </p>
         </div>
       </section>
-      <hr />
+      
 
-      <hr />
       <section className={styles.sps}>
         <h1 className={styles.sps_h1}>Services & Pricing</h1>
 
@@ -595,7 +594,7 @@ const Homepage = () => {
         </div>
       </section>
 
-      <hr />
+
       <section className={styles.faq}>
         <h1 className={styles.faq_h1}>Frequently Asked Questions</h1>
 
@@ -619,7 +618,6 @@ const Homepage = () => {
         </div>
       </section>
 
-      <hr />
       <section className={styles.testimonials}>
         <h2 className={styles.testimonials_h}>1000s Of Happy Customers</h2>
         <div className={styles.testimonials_div}>
@@ -721,7 +719,7 @@ const Homepage = () => {
           </div>
         </div>
       </section>
-      <hr />
+      
 
       <section className={styles.guarantee}>
         <div className={styles.guarantee_div}>
@@ -805,7 +803,7 @@ const Homepage = () => {
         </div>
       </section>
 
-      <hr />
+
       <section className={styles.footer}>
         <div className={styles.FooterWave_div}>
           <img
@@ -921,9 +919,7 @@ const Homepage = () => {
           </p>
         </div>
       </section>
-      <hr />
-
-      <hr />
+      
       <section className={styles.footer}>
         <div></div>
       </section>
