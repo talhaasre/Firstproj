@@ -210,7 +210,7 @@
   .pros_h {
     text-align: center;
     width: 100%;
-    font-size: 2.25em;
+    font-size: 3.6em;
     font-weight: 700;
     padding-left: 10.5em;
     padding-right: 10.5em;
@@ -709,8 +709,10 @@
 }
 
 .sps_h1 {
+  font-size: 3.6em;
+  font-weight: 700;
   // padding: 1.75em 20.8125em 1.5em;
-  padding-top: 1.5em;
+  padding-top: 1.66em;
   // padding-bottom: 1.5em;
   text-align: center;
 }
@@ -782,8 +784,8 @@
 .sps_scr_box_div_1 {
   display: flex;
   background-color: #2f6959;
-  width: 13.3125em;
-  justify-content: space-between;
+  // width: 13.3125em;
+  justify-content: space-evenly;
   align-items: center;
   justify-items: center;
   padding: 0em 2em 2em;
@@ -793,7 +795,7 @@
 .sps_scr_box_div_1_button {
   background-color: #2f6959;
   color: #f2fcf7;
-  font-size: 1em;
+  font-size: 1.8em;
   font-weight: 700;
   border: hidden;
   align-items: center;
