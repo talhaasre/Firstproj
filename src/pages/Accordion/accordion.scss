@@ -38,6 +38,7 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+
   .plus-minus {
     // color: $color-FFFFFF
   }
@@ -48,10 +49,13 @@
   padding: 0.688em 0 0;
   // color: $color-FFFFFF;
   font-weight: 300;
+
   ul {
     padding: 0 0 0 1em;
+
     li {
       list-style-type: disc;
+
       &::marker {
         font-size: 0.75em;
       }
@@ -63,17 +67,21 @@
   .border-accordion {
     margin: 0 0 3.2em;
   }
+
   .accordion-content {
     font-size: 1.6em;
   }
 }
 
+
 @media (max-width: 600px) {
   .accordion-title {
     font-size: 1.6em;
   }
+
   .accordion-content {
     font-size: 1.6em;
+
     ul li {
       &::marker {
         font-size: 1em;
