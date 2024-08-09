@@ -46,7 +46,7 @@ const Homepage = () => {
         />
         <div className={`my_container ${styles.hero_container}`}>
           <div className={`row ${styles.form_row}`}>
-            <div className={`col-md-7 p-0 ${styles.form_col}`}>
+            <div className={`col-md-7 ${styles.form_col} ${styles.form_col1}`}>
               <div className={styles.form_fileds_wrapper}>
                 <h2 className={styles.title_hs}>PDF Conversion Services</h2>
                 <br />
@@ -119,7 +119,7 @@ const Homepage = () => {
                 </article>
               </div>
             </div>
-            <div className={`col-md-5 p-0 ${styles.form_col}`}>
+            <div className={`col-md-5 ${styles.form_col} ${styles.form_col2}`}>
               <div className={styles.form_box}>
                 <div className={styles.form_fileds_wrapper}>
                   <h4 className={styles.title}>Get in Touch</h4>
