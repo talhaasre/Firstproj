@@ -31,20 +31,15 @@ import {
   GuaranteeIcon,
   GuaranteeIconInside,
   buttonicon,
+  rightarrowwhite,
 } from "../../sources";
 import styles from "./homepage.module.scss";
-// import { CustomAccordion } from "./Accordion/Accordion/CustomAccordion";
-// import { CustomAccordion } from "../Accordion/Accordion";
+import { CustomAccordion } from "../Accordion/Accordion";
+import { faqData } from "../../data/homeData";
 
 const Homepage = () => {
   return (
     <>
-    {/* <CustomAccordion/>
-    items={
-      ["hii",
-        'who are you'
-      ]
-    } */}
       <section className={styles.hero_banner}>
         <img
           src={heroBg}
@@ -336,7 +331,6 @@ const Homepage = () => {
           </p>
         </div>
       </section>
-      
 
       <section className={styles.sps}>
         <h1 className={styles.sps_h1}>Services & Pricing</h1>
@@ -364,12 +358,12 @@ const Homepage = () => {
                   </ul>
                 </div>
 
-                <div className={styles.sps_scr_box_div_1}>
+                <div className={styles.sps_cta}>
                   <button className={styles.sps_scr_box_div_1_button}>
                     Get In Touch
                   </button>
                   <img
-                    src={buttonicon}
+                    src={rightarrowwhite}
                     alt="Radio Button"
                     className={styles.buttonicon}
                   />
@@ -396,12 +390,12 @@ const Homepage = () => {
                   </ul>
                 </div>
 
-                <div className={styles.sps_scr_box_div_1}>
+                <div className={styles.sps_cta}>
                   <button className={styles.sps_scr_box_div_1_button}>
                     Get In Touch
                   </button>
                   <img
-                    src={buttonicon}
+                    src={rightarrowwhite}
                     alt="Radio Button"
                     className={styles.buttonicon}
                   />
@@ -428,12 +422,12 @@ const Homepage = () => {
                   </ul>
                 </div>
 
-                <div className={styles.sps_scr_box_div_1}>
+                <div className={styles.sps_cta}>
                   <button className={styles.sps_scr_box_div_1_button}>
                     Get In Touch
                   </button>
                   <img
-                    src={buttonicon}
+                    src={rightarrowwhite}
                     alt="Radio Button"
                     className={styles.buttonicon}
                   />
@@ -462,12 +456,12 @@ const Homepage = () => {
                   </ul>
                 </div>
 
-                <div className={styles.sps_scr_box_div_1}>
+                <div className={styles.sps_cta}>
                   <button className={styles.sps_scr_box_div_1_button}>
                     Get In Touch
                   </button>
                   <img
-                    src={buttonicon}
+                    src={rightarrowwhite}
                     alt="Radio Button"
                     className={styles.buttonicon}
                   />
@@ -494,12 +488,12 @@ const Homepage = () => {
                   </ul>
                 </div>
 
-                <div className={styles.sps_scr_box_div_1}>
+                <div className={styles.sps_cta}>
                   <button className={styles.sps_scr_box_div_1_button}>
                     Get In Touch
                   </button>
                   <img
-                    src={buttonicon}
+                    src={rightarrowwhite}
                     alt="Radio Button"
                     className={styles.buttonicon}
                   />
@@ -526,12 +520,12 @@ const Homepage = () => {
                   </ul>
                 </div>
 
-                <div className={styles.sps_scr_box_div_1}>
+                <div className={styles.sps_cta}>
                   <button className={styles.sps_scr_box_div_1_button}>
                     Get In Touch
                   </button>
                   <img
-                    src={buttonicon}
+                    src={rightarrowwhite}
                     alt="Radio Button"
                     className={styles.buttonicon}
                   />
@@ -601,28 +595,34 @@ const Homepage = () => {
         </div>
       </section>
 
-
       <section className={styles.faq}>
         <h1 className={styles.faq_h1}>Frequently Asked Questions</h1>
 
         <div className={styles.faq_div}>
-          <div className={styles.faq_div_1}>
-            <h2 className={styles.faq_div_1_h2}>Still Have Some Questions?</h2>
-            <p className={styles.faq_div_1_p}>
-              Email us! You will be pleasantly surprised by how fast we reply
-              and how easy it is for you to self-published on all platforms. You
-              can also use the blue box on the bottom right of your screen to
-              reach us.
-            </p>
-            {/* <div className={styles.faq_div_1_div}> */}
-            <button className={styles.faq_div_1_div_button}>
-              Customer Support
-            </button>
-            {/* </div> */}
-          </div>
-
-          <div className={styles.faq_div_2}>
-            {/* <CustomAccordion /> */}
+          <div className="row">
+            <div className="col-md-8 order-md-2">
+              <div className={styles.faq_div_2}>
+                <CustomAccordion items={faqData} />
+              </div>
+            </div>
+            <div className="col-md-4 order-md-1">
+              <div className={styles.faq_div_1}>
+                <h2 className={styles.faq_div_1_h2}>
+                  Still Have Some Questions?
+                </h2>
+                <p className={styles.faq_div_1_p}>
+                  Email us! You will be pleasantly surprised by how fast we
+                  reply and how easy it is for you to self-published on all
+                  platforms. You can also use the blue box on the bottom right
+                  of your screen to reach us.
+                </p>
+                {/* <div className={styles.faq_div_1_div}> */}
+                <button className={styles.faq_div_1_div_button}>
+                  Customer Support
+                </button>
+                {/* </div> */}
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -728,7 +728,6 @@ const Homepage = () => {
           </div>
         </div>
       </section>
-      
 
       <section className={styles.guarantee}>
         <div className={styles.guarantee_div}>
@@ -811,7 +810,6 @@ const Homepage = () => {
           </div>
         </div>
       </section>
-
 
       <section className={styles.footer}>
         <div className={styles.FooterWave_div}>
@@ -928,30 +926,9 @@ const Homepage = () => {
           </p>
         </div>
       </section>
-      
+
       <section className={styles.footer}>
         <div></div>
-      </section>
-
-      <section className={styles.home_sec1}>
-        <div className="my_container">
-          <div className={styles.text_container}>
-            <h1 className={styles.heading}>
-              Frontend Developer, Consultant & Mentor
-            </h1>
-            <p className={styles.description}>
-              I do deep analyse, make strategy, develop and code pixel perfect
-              and highly responsive websites, and I love what I do.
-            </p>
-          </div>
-          <div className={styles.img_wrapper}>
-            <img
-              src={herodevices}
-              alt="hero devices"
-              className={styles.hero_img}
-            />
-          </div>
-        </div>
       </section>
     </>
   );

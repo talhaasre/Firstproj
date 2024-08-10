@@ -42,6 +42,7 @@ export { default as buttonicon } from "./images/homepage/button_Icon.png";
 
 // HOMEPAGE IMAGES
 export { default as heroBg } from "./images/homepage/hero-bg.png";
+export { default as rightarrowwhite } from "./images/homepage/right-arrow-white.svg";
 
 export let images = {
   logo: {

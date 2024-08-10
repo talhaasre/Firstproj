@@ -9,12 +9,12 @@ import ContactUs from "./pages/ContactUs/ContactUs";
 const Routing = () => {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path={homeURL} element={<Homepage />} />
         <Route path={ContactURL} element={<ContactUs />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
