@@ -34,10 +34,17 @@ import {
 } from "../../sources";
 import styles from "./homepage.module.scss";
 // import { CustomAccordion } from "./Accordion/Accordion/CustomAccordion";
+// import { CustomAccordion } from "../Accordion/Accordion";
 
 const Homepage = () => {
   return (
     <>
+    {/* <CustomAccordion/>
+    items={
+      ["hii",
+        'who are you'
+      ]
+    } */}
       <section className={styles.hero_banner}>
         <img
           src={heroBg}
@@ -259,9 +266,9 @@ const Homepage = () => {
             </div>
           </div>
 
+          {/* <br />
           <br />
-          <br />
-          <br />
+          <br /> */}
 
           <div className={styles.pros_items_row2}>
             <div className={styles.pros_items_row1_div}>
@@ -614,7 +621,9 @@ const Homepage = () => {
             {/* </div> */}
           </div>
 
-          <div className={styles.faq_div_2}>{/* <CustomAccordion /> */}</div>
+          <div className={styles.faq_div_2}>
+            {/* <CustomAccordion /> */}
+          </div>
         </div>
       </section>
 

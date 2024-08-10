@@ -165,7 +165,7 @@
     // max-width: 31.45em;
     // height: 4em;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 
     // padding:3.32em 14.25em 6.625em;
     .sizeimg {
@@ -633,6 +633,15 @@
       }
     }
   }
+  .guarantee{
+    .guarantee_div_col_div{
+      flex-direction: column;
+      .guarantee_div_col_div_1_p{
+        padding-bottom: 1em;
+      }
+    }
+    
+  }
 }
 
 .guarantee {
@@ -688,6 +697,7 @@
   font-size: 1.6em;
   font-weight: 500;
   padding-left: 0.625em;
+
   // max-width: 4.0625em;
 }
 
@@ -955,6 +965,7 @@
       display: flex;
       flex-direction: column;
       padding-bottom: 0em;
+      align-items: center;
 
       .sps_scr_box {
         padding-bottom: 0.5em;

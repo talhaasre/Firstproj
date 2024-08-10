@@ -3,9 +3,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MetaDecorator from "./components/MetaDecorator/MetaDecorator";
 import Routing from "./Routing";
 
+
 function App() {
   return (
     <>
+
       <MetaDecorator
         // metaTitle="UpGrad Living"
         metaTitle="Talha Asre | Frontend Developer & Mentor"
