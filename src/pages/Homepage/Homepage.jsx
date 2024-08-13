@@ -32,6 +32,7 @@ import {
   GuaranteeIconInside,
   buttonicon,
   rightarrowwhite,
+  goldenstar,
 } from "../../sources";
 import styles from "./homepage.module.scss";
 import { CustomAccordion } from "../Accordion/Accordion";
@@ -632,6 +633,18 @@ const Homepage = () => {
         <div className={styles.testimonials_div}>
           <div className={styles.testimonials_div_boxes}>
             <div className={styles.testimonials_div_box}>
+              
+            {/* <img
+          src={goldenstar}
+          alt="laptop typing background"
+          className={styles.hero_bg}
+        /> */}
+              <img
+                src="https://tse1.mm.bing.net/th?id=OIP.AingTkaDHDydZb2QwZVeLAHaBu&pid=Api&P=0&h=220"
+                alt=""
+                width="92px"
+                height="9px"
+              />
               <p className={styles.testimonials_div_box_h}>
                 Modern look & trending design
               </p>
@@ -661,6 +674,12 @@ const Homepage = () => {
               </div>
             </div>
             <div className={styles.testimonials_div_box}>
+              <img
+                src="https://tse1.mm.bing.net/th?id=OIP.AingTkaDHDydZb2QwZVeLAHaBu&pid=Api&P=0&h=220"
+                alt=""
+                width="92px"
+                height="9px"
+              />
               <h5 className={styles.testimonials_div_box_h}>
                 Modern look & trending design
               </h5>
@@ -690,7 +709,6 @@ const Homepage = () => {
               </div>
             </div>
             <div className={styles.testimonials_div_box}>
-              <p className={styles.testimonials_div_box_star}>*****</p>
               <img
                 src="https://tse1.mm.bing.net/th?id=OIP.AingTkaDHDydZb2QwZVeLAHaBu&pid=Api&P=0&h=220"
                 alt=""

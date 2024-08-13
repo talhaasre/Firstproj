@@ -43,7 +43,7 @@ export const CustomAccordion = ({
             onClick={() => handleItemClick(index)}
           >
             <span>{item.title}</span>
-            <span className="plus-minus">{openIndex === index ? "-" : "+"}</span>
+            <span className="plus-minus">{openIndex === index ? "v" : ">"}</span>
           </div>
           <div
             className={`accordion-item ${openIndex === index ? "active" : ""}`}

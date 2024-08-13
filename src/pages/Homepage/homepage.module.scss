@@ -123,7 +123,7 @@
 
 
 .title_hs_1 {
-  font-size: 1.25em;
+  font-size: 1em;
   max-width: 28.75em;
 }
 
@@ -244,6 +244,7 @@
 
 .p {
   font-weight: 500;
+  margin-top: 10em;
 }
 
 .pros_sec {
@@ -252,19 +253,19 @@
   .pros_h {
     text-align: center;
     width: 100%;
-    font-size: 3.6em;
+    font-size: 2.25em;
     font-weight: 700;
     padding-left: 10.5em;
     padding-right: 10.5em;
   }
 
   .pros_h6 {
-    font-size: 1.8em;
+    font-size: 1.125em;
   }
 
   .pros_items_row1_p {
     padding-top: 1.2em;
-    font-size: 1.5em;
+    font-size: 0.94em;
   }
 
   .pros_items {
@@ -272,15 +273,16 @@
   }
 
   .pros_p {
-    font-size: 1.5em;
-    padding: 4em 18.25em 10em;
+    font-size: 1em;
+    padding: 0em 18.25em 7em;
     text-align: center;
   }
 }
 
 .pros_items_row1_div {
   display: flex;
-  padding-right: 4em;
+  padding-right: 2.5em;
+  padding-bottom: 5.5em;
 }
 
 // @media screen {
@@ -343,7 +345,7 @@
   margin: 0%;
 
   .testimonials_h {
-    font-size: 3.6em;
+    font-size: 2.25em;
     font-weight: 700;
     text-align: center;
     width: 100%;
@@ -370,9 +372,10 @@
 }
 
 .testimonials_div_box_h {
-  font-size: 1.4em;
+  font-size: 0.875em;
   font-weight: 700;
   padding-bottom: 1em;
+  padding-top: 0.5em;
 }
 
 @media (max-width: 600px) {
@@ -422,7 +425,7 @@
 
 .testimonials_div_box_p {
   padding-bottom: 2em;
-  font-size: 1.6em;
+  font-size: 1em;
 }
 
 .FooterWave_img {
@@ -618,18 +621,19 @@
 
         .footerdiv4 {
           .footerdiv4_h6 {
-            font-size: 3em;
+            font-size: 2.8em;
             padding-top: 3em;
           }
 
           .footerdiv4_1_p {
-            font-size: 3em;
+            font-size: 2em;
           }
         }
       }
 
       .footerdiv_p {
-        font-size: 3em;
+        font-size: 2.5em;
+        // :first-child{padding-top: 2em;}
       }
     }
   }
@@ -658,12 +662,12 @@
 }
 
 .guarantee_div_col_h1 {
-  font-size: 3.6em;
+  font-size: 2.25em;
   font-weight: 700;
 }
 
 .guarantee_div_col_p {
-  font-size: 1.5625em;
+  font-size: 1em;
   font-weight: 400;
   line-height: 3.1em;
   padding-top: 1em;
@@ -689,12 +693,13 @@
 .guarantee_div_col_div_h2 {
   // padding-top: 2.5625em;
   padding-right: 1em;
+  font-size: 2em;
   font-weight: 700;
   margin-bottom: 0.5em;
 }
 
 .guarantee_div_col_div_1_p {
-  font-size: 1.6em;
+  font-size: 1em;
   font-weight: 500;
   padding-left: 0.625em;
 
@@ -708,14 +713,14 @@
 
 .guarantee_div_img {
   position: absolute;
-  width: 39.5em;
+  width: 24.7em;
 }
 
 .guarantee_div_img_inside {
   position: relative;
-  width: 20.5em;
-  top: 87px;
-  left: 95px;
+  width: 10.94em;
+  top: 5.5em;
+  left: 6.75em;
 }
 
 @media (max-width: 600px) {
@@ -728,10 +733,19 @@
       display: none;
     }
   }
+  .faq{
+    .faq_div{
+      padding: 2.5em 4em 6em;
+    }
+  }
 }
 
+// .faq{
+
+// }
+
 .faq_h1 {
-  font-size: 3.6em;
+  font-size: 2.25em;
   font-weight: 700;
   padding-top: 2em;
   // padding-bottom: 2.5em;
@@ -744,14 +758,14 @@
 }
 
 .faq_div_1_h2 {
-  font-size: 2.4em;
+  font-size: 1.5em;
   font-weight: 700;
   line-height: 2.5em;
   padding-bottom: 0.84em;
 }
 
 .faq_div_1_p {
-  font-size: 1.6em;
+  font-size: 1em;
   font-weight: 400;
   line-height: 1.875em;
   max-width: 20.125em;
@@ -770,7 +784,7 @@
   text-decoration: color(srgb #194340);
   background-color: #a4eaca;
   padding: 1em 2.5em 1em;
-  font-size: 2em;
+  font-size: 1.25em;
   font-weight: 700;
   border-radius: 0.375em;
   border: hidden;
@@ -788,7 +802,7 @@
 
 .guarantee_div_col_div_div_button {
   background-color: #a4eaca;
-  font-size: 1em;
+  font-size: 1.125em;
   font-weight: 700;
   border: hidden;
 }
@@ -804,7 +818,7 @@
 }
 
 .sps_h1 {
-  font-size: 3.6em;
+  font-size: 2.25em;
   font-weight: 700;
   // padding: 1.75em 20.8125em 1.5em;
   padding-top: 1.66em;
@@ -855,14 +869,14 @@
 
 .sps_scr_box_h3 {
   color: #2f6959;
-  font-size: 2.4em;
+  font-size: 1.5em;
   font-weight: 700;
   padding: 1.4584em 1.4584em 0.833em;
 }
 
 .sps_scr_box_h3_1 {
   color: #2f6959;
-  font-size: 3em;
+  font-size: 1.88em;
   font-weight: 700;
   padding: 0em 1.17em 0.67em;
 }
@@ -872,7 +886,7 @@
 }
 
 .sps_scr_box_div_ul_li {
-  font-size: 1.5em;
+  font-size: 1em;
   list-style-type: circle;
   padding-bottom: 0.5em;
   // padding: 0em 2em 1.25em;
@@ -892,7 +906,7 @@
 .sps_scr_box_div_1_button {
   background-color: #2f6959;
   color: #f2fcf7;
-  font-size: 1.8em;
+  font-size: 1.13em;
   font-weight: 700;
   border: hidden;
   align-items: center;
@@ -921,7 +935,7 @@
 
 .sps_group_box_h4 {
   color: #2f6959;
-  font-size: 2.2em;
+  font-size: 1.4em;
   font-weight: 700;
   padding-top: 2em;
   padding-left: 1.5em;
@@ -929,7 +943,7 @@
 }
 
 .sps_group_box_p {
-  font-size: 1.6em;
+  font-size: 1em;
   font-weight: 400;
   line-height: 2em;
   padding: 0.5em 2em 3.75em;
@@ -947,7 +961,7 @@
 }
 
 .sps_group_box_div_div_p {
-  font-size: 1.6em;
+  font-size: 1em;
   font-weight: 500;
   color: #183b56;
   line-height: 1.25em;
