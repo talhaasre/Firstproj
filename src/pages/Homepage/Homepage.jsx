@@ -336,6 +336,45 @@ const Homepage = () => {
       <section className={styles.sps}>
         <h1 className={styles.sps_h1}>Services & Pricing</h1>
 
+        <div className={styles.sps_tag}>
+          {/* <div className={styles.sps_tag_text}>
+            <p className={styles.sps_tag_text_p}>PDF to Indesign</p>
+            <p className={styles.sps_tag_text_p}>PDF to Indesign</p> */}
+          <div className={`tab ${styles.tab}`}>
+            <ul className={`d-flex ${styles.tab_ul}`}>
+              <li className={`flex-fill ${styles.tab_ul_li}`}>
+                PDF to Indesign
+              </li>
+              <li className={`flex-fill ${styles.tab_ul_li}`}>
+                PDF to Indesign
+              </li>
+            </ul>
+          </div>
+          {/* </div> */}
+        </div>
+
+        <div className={styles.sps_div}>
+          <div className={styles.sps_div_1}>
+            <h3 className={styles.sps_div_1_h3}>What is PDF formatting?</h3>
+            <p className={styles.sps_div_1_p}>
+              Ebook formatting is the preparation of a digital file, to ensure
+              that it meets the publisher's requirements and is an enjoyable
+              reading experience.
+            </p>
+          </div>
+
+          <div className={styles.sps_div_2}>
+            <h3 className={styles.sps_div_2_h3}>
+              Why do I need my PDF formatted?
+            </h3>
+            <p className={styles.sps_div_2_p}>
+              Professional Ebook formatting is required to get Proper chapters
+              tagging, clickable table of content, and a flexible layout
+              compatible with all ereaders.
+            </p>
+          </div>
+        </div>
+
         <div className={styles.sps_scr}>
           <div className={styles.sps_scr_top_boxes}>
             <div className={styles.sps_scr_boxes}>
@@ -633,8 +672,7 @@ const Homepage = () => {
         <div className={styles.testimonials_div}>
           <div className={styles.testimonials_div_boxes}>
             <div className={styles.testimonials_div_box}>
-              
-            {/* <img
+              {/* <img
           src={goldenstar}
           alt="laptop typing background"
           className={styles.hero_bg}
